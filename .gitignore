@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.log
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/*
+!.vscode/extensions.json
+node_modules/
+dist/
+build/
+.cache/
+*.swp
+*.swo
