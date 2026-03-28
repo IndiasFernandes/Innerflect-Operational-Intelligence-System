@@ -1,3 +1,8 @@
+# Pushes the Docusaurus build to the `gh-pages` branch.
+# In the repo: Settings → Pages → Build and deployment → Source: "Deploy from a branch"
+# Branch: gh-pages, folder: / (root).
+# Do not use "GitHub Actions" as the Pages source for this workflow—the branch deploy is the supported path here.
+
 name: Deploy documentation
 
 on:
@@ -10,16 +15,14 @@ on:
       - '.github/workflows/deploy-docs.yml'
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
-  group: pages
-  cancel-in-progress: false
+  group: deploy-docs
+  cancel-in-progress: true
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -40,19 +43,12 @@ jobs:
         run: |
           npm ci
           npm run build
+          test -d build/assets/css
+          test -d build/assets/js
 
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Deploy to gh-pages branch
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: website/build
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./website/build
+          force_orphan: true
