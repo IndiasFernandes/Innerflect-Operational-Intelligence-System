@@ -238,7 +238,6 @@ file referencing
 
 _**Agent (composer-2)**_
 
-
 Exploring how prompts are stored and how the sidebar displays them so we can add the new prompt and match the sidebar pattern.
 
 
@@ -385,3 +384,978 @@ Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System**
 <summary>Tool use: **glob_file_search**</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/sidebarsOps.ts</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System** (1 file)
+
+| File |
+|------|
+| `ops/02_playbooks/development/deployment-pipeline-prompts.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "glob": "sidebars*.ts",
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website",
+  "pattern": "prompt|identifier|ID"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website",
+  "pattern": "prompt|identifier|ID",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/deployment-pipeline-prompts.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/docusaurus.config.ts</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs** (1 file)
+
+| File |
+|------|
+| `playbooks/development/index.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/README.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks/development/index.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/system/repository-map.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development",
+  "pattern": "sidebar_label|identifier|ID:|PROMPT|DEV-"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development",
+  "pattern": "sidebar_label|identifier|ID:|PROMPT|DEV-",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/00_governance/docs-and-site-sync.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/cursor-start.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks/index.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System",
+  "pattern": "sidebar_label"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System",
+  "pattern": "sidebar_label",
+  "topFiles": [
+    {
+      "matchCount": 1,
+      "uri": "./.specstory/history/2026-03-26_08-05-16Z-innerflect-operational-intelligence-repository-setup.md"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/src/sidebars/utils.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/src/props.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/src/plugin-content-docs.d.ts"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/src/sidebars/generator.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/src/frontMatter.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/lib/sidebars/utils.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/lib/props.js"
+    },
+    {
+      "matchCount": 2,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/lib/sidebars/generator.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-docs/lib/frontMatter.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-blog/src/props.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-blog/src/plugin-content-blog.d.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-blog/src/frontMatter.ts"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-blog/lib/props.js"
+    },
+    {
+      "matchCount": 1,
+      "uri": "./website/node_modules/@docusaurus/plugin-content-blog/lib/frontMatter.js"
+    }
+  ],
+  "totalFiles": 15,
+  "totalMatches": 17
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Adding sidebar label**
+
+I'm adding a sidebar label like `[PROMPT-06]` to organize the new playbook file. I'm adding sidebar_label to deployment and new prompt files following the same pattern as existing prompts. I'm creating a new playbook file with consistent ID formatting and sidebar label structure. I'm implementing consistent identifier patterns for sidebar labels using descriptive codes like DEV-P5. 
+
+I'm standardizing sidebar labels with consistent identifier patterns like `[COH] Full system scan  rules, skills, hooks`. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **14** results in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development** (14 files)
+
+| File |
+|------|
+| `README.md` |
+| `repo-bootstrap.md` |
+| `deployment-pipeline-prompts.md` |
+| `pre-release-check.md` |
+| `performance-audit.md` |
+| `ui-ux-audit.md` |
+| `full-audit.md` |
+| `feature-implementation.md` |
+| `architecture-planning.md` |
+| `cursor-start.md` |
+| `docs-bootstrap.md` |
+| `project-continuation.md` |
+| `project-setup.md` |
+| `project-intake.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/03_templates/playbook-template.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/deployment-pipeline-prompts.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Generating documentation**
+
+I'm creating `full-system-coherence-setup.md` with the verbatim prompt and adding sidebar labels with consistent ID schemes. I'm updating sidebar labels to maintain coherence with the deployment pipeline prompts family using numeric prefixes. 
+
+**Updating sidebar labels**
+
+I'm implementing clear bracket prefixes for sidebar labels to improve prompt collection organization. I'm adding emoji prefixes to sidebar labels for better visual grouping of prompt-heavy playbooks. 
+
+I'm adding emoji prefixes to sidebar labels with proper YAML quoting and sidebar_position for better ordering. I'm reordering sidebar labels alphabetically and adding emoji prefixes with proper YAML quoting. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "caseInsensitive": false,
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops",
+  "pattern": "sidebar_position"
+}
+```
+Additional data:
+
+```json
+{
+  "isPruned": true,
+  "outputMode": "content",
+  "path": "/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops",
+  "pattern": "sidebar_position",
+  "topFiles": [],
+  "totalFiles": 0,
+  "totalMatches": 0
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search"><details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Adding sidebar positions**
+
+I'm assigning sidebar_position: 5 and 6 to group the prompt playbooks together near the top of the sidebar. 
+
+**Ordering sidebar**
+
+I'm setting sidebar_position to 50 and 51 for deployment-pipeline-prompts and full-system-coherence-setup to control their ordering. 
+
+**Updating sidebar labels**
+
+I'm adding sidebar_label to both files for easier scanning without disrupting the existing sidebar order. I'm updating sidebar labels with precise formatting for better navigation. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/getting-started/how-to-use-this-repo.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Updating docs hub**
+
+I'm adding a subsection to clarify how to find prompts visually in the docs hub. I'm adding a new table and section to the development README to document prompt bundles and their sidebar IDs. 
+
+I'm updating the docs hub with a new table entry for the full system coherence setup. I'm adding a new YAML configuration for the deployment pipeline docs with proper sidebar labeling. </details></think>
+
+_**Agent (composer-2)**_
+
+Creating the playbook with the verbatim prompt, adding matching `sidebar_label` entries so prompt bundles are scannable in the Ops sidebar, and updating the development hubs per docs-and-site-sync.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/00_governance/adding-a-playbook.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/full-system-coherence-setup.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/deployment-pipeline-prompts.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/README.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/README.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/README.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks/development/index.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+The model provided an ambiguous search string to replace
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks/development/index.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks/development/index.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/full-system-coherence-setup.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website && npm run build</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website && npm run build
+```
+
+```
+
+&gt; website@0.0.0 build
+&gt; docusaurus build
+
+[INFO] [en] Creating an optimized production build...
+[info] [webpackbar] Compiling Client
+[info] [webpackbar] Compiling Server
+[success] [webpackbar] Server: Compiled successfully in 3.38s
+[success] [webpackbar] Client: Compiled successfully in 7.26s
+[SUCCESS] Generated static files in "build".
+[INFO] Use &#96;npm run serve&#96; command to test your build locally.
+[WARNING] Docusaurus found broken links!
+
+Please check the pages of your site in the list below, and make sure you don't reference any path that does not exist.
+Note: it's possible to ignore broken links with the 'onBrokenLinks' Docusaurus configuration, and let the build pass.
+
+It looks like some of the broken links we found appear in many pages of your site.
+Maybe those broken links appear on all pages through your site layout?
+We recommend that you check your theme configuration for such links (particularly, theme navbar and footer).
+Frequent broken links are linking to:
+- ../../AGENTS.md
+- ../../docs/system/repository-map.md
+
+Exhaustive list of all broken links found:
+- Broken link on source page path = /docs/:
+   -&gt; linking to ../ops/02_playbooks/ (resolved as: /ops/02_playbooks/)
+   -&gt; linking to ../ops/03_templates/ (resolved as: /ops/03_templates/)
+   -&gt; linking to ../ops/04_checklists/ (resolved as: /ops/04_checklists/)
+   -&gt; linking to ../ops/01_core-rules/ (resolved as: /ops/01_core-rules/)
+   -&gt; linking to ../ops/05_examples/ (resolved as: /ops/05_examples/)
+   -&gt; linking to ../ops/00_governance/ (resolved as: /ops/00_governance/)
+   -&gt; linking to ../README.md (resolved as: /README.md)
+   -&gt; linking to ../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /docs/archive/:
+   -&gt; linking to ../../ops/09_archive/ARCHIVE_POLICY.md (resolved as: /ops/09_archive/ARCHIVE_POLICY.md)
+   -&gt; linking to ../../ops/00_governance/archiving.md (resolved as: /ops/00_governance/archiving.md)
+   -&gt; linking to ../../ops/09_archive/README.md (resolved as: /ops/09_archive/README.md)
+   -&gt; linking to ../../ops/00_governance/versioning-and-changelog.md (resolved as: /ops/00_governance/versioning-and-changelog.md)
+   -&gt; linking to ../../ops/00_governance/avoiding-duplication.md (resolved as: /ops/00_governance/avoiding-duplication.md)
+- Broken link on source page path = /docs/checklists/:
+   -&gt; linking to ../../ops/04_checklists/ (resolved as: /ops/04_checklists/)
+   -&gt; linking to ../../ops/04_checklists/new-project-setup.md (resolved as: /ops/04_checklists/new-project-setup.md)
+   -&gt; linking to ../../ops/04_checklists/docs-quality-review.md (resolved as: /ops/04_checklists/docs-quality-review.md)
+   -&gt; linking to ../../ops/04_checklists/prompt-quality-review.md (resolved as: /ops/04_checklists/prompt-quality-review.md)
+   -&gt; linking to ../../ops/04_checklists/repo-health-review.md (resolved as: /ops/04_checklists/repo-health-review.md)
+   -&gt; linking to ../../ops/04_checklists/project-continuation.md (resolved as: /ops/04_checklists/project-continuation.md)
+   -&gt; linking to ../../ops/04_checklists/release-readiness.md (resolved as: /ops/04_checklists/release-readiness.md)
+   -&gt; linking to ../../ops/02_playbooks/development/pre-release-check.md (resolved as: /ops/02_playbooks/development/pre-release-check.md)
+- Broken link on source page path = /docs/getting-started/:
+   -&gt; linking to ../../README.md (resolved as: /README.md)
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+   -&gt; linking to ../../ops/00_governance/README.md (resolved as: /ops/00_governance/README.md)
+   -&gt; linking to ../../ops/02_playbooks/ (resolved as: /ops/02_playbooks/)
+- Broken link on source page path = /docs/getting-started/how-to-use-this-repo:
+   -&gt; linking to ../../ops/02_playbooks/ (resolved as: /ops/02_playbooks/)
+   -&gt; linking to ../../ops/03_templates/ (resolved as: /ops/03_templates/)
+   -&gt; linking to ../../ops/04_checklists/ (resolved as: /ops/04_checklists/)
+   -&gt; linking to ../../ops/00_governance/contribution-rules.md (resolved as: /ops/00_governance/contribution-rules.md)
+   -&gt; linking to ../../ops/00_governance/adding-a-playbook.md (resolved as: /ops/00_governance/adding-a-playbook.md)
+   -&gt; linking to ../../ops/00_governance/docs-and-site-sync.md (resolved as: /ops/00_governance/docs-and-site-sync.md)
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /docs/playbooks/:
+   -&gt; linking to ../../ops/02_playbooks/ (resolved as: /ops/02_playbooks/)
+   -&gt; linking to ../../ops/02_playbooks/development/README.md (resolved as: /ops/02_playbooks/development/README.md)
+   -&gt; linking to ../../ops/02_playbooks/marketing/README.md (resolved as: /ops/02_playbooks/marketing/README.md)
+   -&gt; linking to ../../ops/02_playbooks/branding/README.md (resolved as: /ops/02_playbooks/branding/README.md)
+   -&gt; linking to ../../ops/02_playbooks/project-management/README.md (resolved as: /ops/02_playbooks/project-management/README.md)
+   -&gt; linking to ../../ops/02_playbooks/sales/README.md (resolved as: /ops/02_playbooks/sales/README.md)
+   -&gt; linking to ../../ops/02_playbooks/operations/README.md (resolved as: /ops/02_playbooks/operations/README.md)
+   -&gt; linking to ../../ops/04_checklists/prompt-quality-review.md (resolved as: /ops/04_checklists/prompt-quality-review.md)
+   -&gt; linking to ../../ops/03_templates/playbook-template.md (resolved as: /ops/03_templates/playbook-template.md)
+- Broken link on source page path = /docs/playbooks/branding/:
+   -&gt; linking to ../../../ops/02_playbooks/branding/README.md (resolved as: /ops/02_playbooks/branding/README.md)
+   -&gt; linking to ../../../ops/02_playbooks/branding/brand-core-definition.md (resolved as: /ops/02_playbooks/branding/brand-core-definition.md)
+   -&gt; linking to ../../../ops/02_playbooks/branding/visual-direction.md (resolved as: /ops/02_playbooks/branding/visual-direction.md)
+   -&gt; linking to ../../../ops/02_playbooks/branding/sector-benchmark.md (resolved as: /ops/02_playbooks/branding/sector-benchmark.md)
+   -&gt; linking to ../../../ops/02_playbooks/branding/messaging-framework.md (resolved as: /ops/02_playbooks/branding/messaging-framework.md)
+   -&gt; linking to ../../../ops/02_playbooks/branding/tone-of-voice.md (resolved as: /ops/02_playbooks/branding/tone-of-voice.md)
+   -&gt; linking to ../../../ops/02_playbooks/branding/brand-audit.md (resolved as: /ops/02_playbooks/branding/brand-audit.md)
+- Broken link on source page path = /docs/playbooks/marketing/:
+   -&gt; linking to ../../../ops/02_playbooks/marketing/README.md (resolved as: /ops/02_playbooks/marketing/README.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/market-research.md (resolved as: /ops/02_playbooks/marketing/market-research.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/competitor-analysis.md (resolved as: /ops/02_playbooks/marketing/competitor-analysis.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/target-audience-definition.md (resolved as: /ops/02_playbooks/marketing/target-audience-definition.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/offer-positioning.md (resolved as: /ops/02_playbooks/marketing/offer-positioning.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/website-analysis.md (resolved as: /ops/02_playbooks/marketing/website-analysis.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/conversion-analysis.md (resolved as: /ops/02_playbooks/marketing/conversion-analysis.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/content-strategy.md (resolved as: /ops/02_playbooks/marketing/content-strategy.md)
+   -&gt; linking to ../../../ops/02_playbooks/marketing/campaign-planning.md (resolved as: /ops/02_playbooks/marketing/campaign-planning.md)
+- Broken link on source page path = /docs/playbooks/operations/:
+   -&gt; linking to ../../../ops/02_playbooks/operations/README.md (resolved as: /ops/02_playbooks/operations/README.md)
+   -&gt; linking to ../../../ops/02_playbooks/operations/weekly-review.md (resolved as: /ops/02_playbooks/operations/weekly-review.md)
+   -&gt; linking to ../../../ops/02_playbooks/operations/decision-log.md (resolved as: /ops/02_playbooks/operations/decision-log.md)
+   -&gt; linking to ../../../ops/02_playbooks/operations/process-improvement.md (resolved as: /ops/02_playbooks/operations/process-improvement.md)
+   -&gt; linking to ../../../ops/02_playbooks/operations/team-handoff.md (resolved as: /ops/02_playbooks/operations/team-handoff.md)
+   -&gt; linking to ../../../ops/02_playbooks/operations/knowledge-capture.md (resolved as: /ops/02_playbooks/operations/knowledge-capture.md)
+- Broken link on source page path = /docs/playbooks/project-management/:
+   -&gt; linking to ../../../ops/02_playbooks/project-management/README.md (resolved as: /ops/02_playbooks/project-management/README.md)
+   -&gt; linking to ../../../ops/02_playbooks/project-management/client-intake.md (resolved as: /ops/02_playbooks/project-management/client-intake.md)
+   -&gt; linking to ../../../ops/02_playbooks/project-management/proposal-builder.md (resolved as: /ops/02_playbooks/project-management/proposal-builder.md)
+   -&gt; linking to ../../../ops/02_playbooks/project-management/scope-definition.md (resolved as: /ops/02_playbooks/project-management/scope-definition.md)
+   -&gt; linking to ../../../ops/02_playbooks/project-management/project-kickoff.md (resolved as: /ops/02_playbooks/project-management/project-kickoff.md)
+   -&gt; linking to ../../../ops/02_playbooks/project-management/handoff.md (resolved as: /ops/02_playbooks/project-management/handoff.md)
+   -&gt; linking to ../../../ops/02_playbooks/project-management/retrospective.md (resolved as: /ops/02_playbooks/project-management/retrospective.md)
+- Broken link on source page path = /docs/playbooks/sales/:
+   -&gt; linking to ../../../ops/02_playbooks/sales/README.md (resolved as: /ops/02_playbooks/sales/README.md)
+   -&gt; linking to ../../../ops/02_playbooks/sales/outbound-research.md (resolved as: /ops/02_playbooks/sales/outbound-research.md)
+   -&gt; linking to ../../../ops/02_playbooks/sales/first-contact-email.md (resolved as: /ops/02_playbooks/sales/first-contact-email.md)
+   -&gt; linking to ../../../ops/02_playbooks/sales/follow-up-sequence.md (resolved as: /ops/02_playbooks/sales/follow-up-sequence.md)
+   -&gt; linking to ../../../ops/02_playbooks/sales/call-prep.md (resolved as: /ops/02_playbooks/sales/call-prep.md)
+   -&gt; linking to ../../../ops/02_playbooks/sales/proposal-follow-up.md (resolved as: /ops/02_playbooks/sales/proposal-follow-up.md)
+- Broken link on source page path = /docs/standards/:
+   -&gt; linking to ../../ops/01_core-rules/ (resolved as: /ops/01_core-rules/)
+   -&gt; linking to ../../ops/01_core-rules/development-standards.md (resolved as: /ops/01_core-rules/development-standards.md)
+   -&gt; linking to ../../ops/01_core-rules/design-standards.md (resolved as: /ops/01_core-rules/design-standards.md)
+   -&gt; linking to ../../ops/01_core-rules/documentation-standards.md (resolved as: /ops/01_core-rules/documentation-standards.md)
+   -&gt; linking to ../../ops/01_core-rules/research-standards.md (resolved as: /ops/01_core-rules/research-standards.md)
+   -&gt; linking to ../../ops/01_core-rules/qa-standards.md (resolved as: /ops/01_core-rules/qa-standards.md)
+   -&gt; linking to ../../ops/01_core-rules/git-github-standards.md (resolved as: /ops/01_core-rules/git-github-standards.md)
+   -&gt; linking to ../../ops/01_core-rules/communication-standards.md (resolved as: /ops/01_core-rules/communication-standards.md)
+   -&gt; linking to ../../ops/00_governance/README.md (resolved as: /ops/00_governance/README.md)
+- Broken link on source page path = /docs/standards/documentation-standards:
+   -&gt; linking to ../../ops/01_core-rules/documentation-standards.md (resolved as: /ops/01_core-rules/documentation-standards.md)
+   -&gt; linking to ../../ops/00_governance/contribution-rules.md (resolved as: /ops/00_governance/contribution-rules.md)
+- Broken link on source page path = /docs/system/:
+   -&gt; linking to ../../ops/00_governance/ (resolved as: /ops/00_governance/)
+- Broken link on source page path = /docs/system/inner-linking-conventions:
+   -&gt; linking to ../../ops/00_governance/docs-and-site-sync.md (resolved as: /ops/00_governance/docs-and-site-sync.md)
+- Broken link on source page path = /docs/system/repository-map:
+   -&gt; linking to ../../README.md (resolved as: /README.md)
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+   -&gt; linking to ../../CHANGELOG.md (resolved as: /CHANGELOG.md)
+   -&gt; linking to ../../ops/README.md (resolved as: /ops/README.md)
+   -&gt; linking to ../../website/ (resolved as: /website/)
+   -&gt; linking to ../../ops/00_governance/ (resolved as: /ops/00_governance/)
+   -&gt; linking to ../../ops/01_core-rules/ (resolved as: /ops/01_core-rules/)
+   -&gt; linking to ../../ops/02_playbooks/ (resolved as: /ops/02_playbooks/)
+   -&gt; linking to ../../ops/03_templates/ (resolved as: /ops/03_templates/)
+   -&gt; linking to ../../ops/04_checklists/ (resolved as: /ops/04_checklists/)
+   -&gt; linking to ../../ops/05_examples/ (resolved as: /ops/05_examples/)
+   -&gt; linking to ../../ops/06_subagents/ (resolved as: /ops/06_subagents/)
+   -&gt; linking to ../../ops/07_skills/ (resolved as: /ops/07_skills/)
+   -&gt; linking to ../../ops/08_mcp-guides/ (resolved as: /ops/08_mcp-guides/)
+   -&gt; linking to ../../ops/09_archive/ (resolved as: /ops/09_archive/)
+   -&gt; linking to ../../ops/04_checklists/docs-quality-review.md (resolved as: /ops/04_checklists/docs-quality-review.md)
+   -&gt; linking to ../../ops/00_governance/docs-and-site-sync.md (resolved as: /ops/00_governance/docs-and-site-sync.md)
+- Broken link on source page path = /docs/system/taxonomy:
+   -&gt; linking to ../../ops/00_governance/versioning-and-changelog.md (resolved as: /ops/00_governance/versioning-and-changelog.md)
+   -&gt; linking to ../../ops/00_governance/naming-conventions.md (resolved as: /ops/00_governance/naming-conventions.md)
+- Broken link on source page path = /docs/templates/:
+   -&gt; linking to ../../ops/03_templates/ (resolved as: /ops/03_templates/)
+   -&gt; linking to ../../ops/03_templates/playbook-template.md (resolved as: /ops/03_templates/playbook-template.md)
+   -&gt; linking to ../../ops/03_templates/audit-template.md (resolved as: /ops/03_templates/audit-template.md)
+   -&gt; linking to ../../ops/03_templates/proposal-template.md (resolved as: /ops/03_templates/proposal-template.md)
+   -&gt; linking to ../../ops/03_templates/research-report-template.md (resolved as: /ops/03_templates/research-report-template.md)
+   -&gt; linking to ../../ops/03_templates/competitor-teardown-template.md (resolved as: /ops/03_templates/competitor-teardown-template.md)
+   -&gt; linking to ../../ops/03_templates/project-handoff-template.md (resolved as: /ops/03_templates/project-handoff-template.md)
+   -&gt; linking to ../../ops/03_templates/decision-log-template.md (resolved as: /ops/03_templates/decision-log-template.md)
+   -&gt; linking to ../../ops/00_governance/adding-a-playbook.md (resolved as: /ops/00_governance/adding-a-playbook.md)
+- Broken link on source page path = /ops/:
+   -&gt; linking to 00_governance/ (resolved as: /ops/00_governance/)
+   -&gt; linking to 01_core-rules/ (resolved as: /ops/01_core-rules/)
+   -&gt; linking to 02_playbooks/ (resolved as: /ops/02_playbooks/)
+   -&gt; linking to 03_templates/ (resolved as: /ops/03_templates/)
+   -&gt; linking to 04_checklists/ (resolved as: /ops/04_checklists/)
+   -&gt; linking to 05_examples/ (resolved as: /ops/05_examples/)
+   -&gt; linking to 06_subagents/ (resolved as: /ops/06_subagents/)
+   -&gt; linking to 07_skills/ (resolved as: /ops/07_skills/)
+   -&gt; linking to 08_mcp-guides/ (resolved as: /ops/08_mcp-guides/)
+   -&gt; linking to 09_archive/ (resolved as: /ops/09_archive/)
+   -&gt; linking to ../docs/index.md (resolved as: /docs/index.md)
+   -&gt; linking to ../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /ops/checklists/docs-quality-review:
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /docs/system/repository-map.md)
+   -&gt; linking to ../../docs/standards/documentation-standards.md (resolved as: /docs/standards/documentation-standards.md)
+- Broken link on source page path = /ops/checklists/new-project-setup:
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /docs/system/repository-map.md)
+- Broken link on source page path = /ops/checklists/prompt-quality-review:
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /ops/core-rules/:
+   -&gt; linking to ../../docs/standards/documentation-standards.md (resolved as: /docs/standards/documentation-standards.md)
+- Broken link on source page path = /ops/core-rules/documentation-standards:
+   -&gt; linking to ../../docs/standards/documentation-standards.md (resolved as: /docs/standards/documentation-standards.md)
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /docs/system/repository-map.md)
+- Broken link on source page path = /ops/governance/:
+   -&gt; linking to ../../docs/index.md (resolved as: /docs/index.md)
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /docs/system/repository-map.md)
+- Broken link on source page path = /ops/governance/adding-a-playbook:
+   -&gt; linking to ../../docs/system/taxonomy.md (resolved as: /docs/system/taxonomy.md)
+- Broken link on source page path = /ops/governance/archiving:
+   -&gt; linking to ../09_archive/ARCHIVE_POLICY.md (resolved as: /ops/09_archive/ARCHIVE_POLICY.md)
+- Broken link on source page path = /ops/governance/contribution-rules:
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /docs/system/repository-map.md)
+- Broken link on source page path = /ops/governance/naming-conventions:
+   -&gt; linking to ../../docs/system/taxonomy.md (resolved as: /docs/system/taxonomy.md)
+- Broken link on source page path = /ops/governance/prompt-usage-model:
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /ops/playbooks/:
+   -&gt; linking to ../../docs/playbooks/index.md (resolved as: /docs/playbooks/index.md)
+- Broken link on source page path = /ops/playbooks/development/cursor-start:
+   -&gt; linking to ../../../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /ops/playbooks/development/docs-bootstrap:
+   -&gt; linking to ../../../docs/docusaurus-recommendation.md (resolved as: /docs/docusaurus-recommendation.md)
+- Broken link on source page path = /ops/playbooks/operations/:
+   -&gt; linking to ../00_governance/mission.md (resolved as: /ops/playbooks/00_governance/mission.md)
+- Broken link on source page path = /ops/skills/:
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+- Broken link on source page path = /ops/subagents/:
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /docs/system/repository-map.md)
+   -&gt; linking to ../../AGENTS.md (resolved as: /AGENTS.md)
+
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Updating docs hub**
+
+I've updated the README and docs hub with the Cursor prompt bundles table. </details></think>
+
+_**Agent (composer-2)**_
+
+Quoting `sidebar_label` values — unquoted `[` can break YAML parsing.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/deployment-pipeline-prompts.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/full-system-coherence-setup.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Updating docs**
+
+I'm adding a brief pointer in the how-to-use-this section to clarify YAML quoting conventions. I'm adding a bullet under 'Find the right playbook' linking to the development hub section on prompt bundles sidebar IDs. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/getting-started/how-to-use-this-repo.md</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+Here is what was added and how it shows up in the site.
+
+### New playbook (prompt saved verbatim)
+
+- **File:** [`ops/02_playbooks/development/full-system-coherence-setup.md`](ops/02_playbooks/development/full-system-coherence-setup.md)  
+- The **Cursor prompt** block matches your text (from the brain emoji header through the “file referencing” closing lines).  
+- **Sidebar label (Ops):** `[COH · Context7] Full system coherence` — set via `sidebar_label` in frontmatter so the left nav shows the ID immediately.
+
+### Matching “prompts” in the sidebar
+
+- **Deployment bundle** [`deployment-pipeline-prompts.md`](ops/02_playbooks/development/deployment-pipeline-prompts.md) now has  
+  **`sidebar_label: "[Prompts ×5] Deployment pipeline"`** so both large prompt playbooks read clearly in the **Ops → Playbooks → Development** tree.
+
+### Wayfinding (tables + docs link)
+
+- **[`ops/02_playbooks/development/README.md`](ops/02_playbooks/development/README.md)** — new section **“Cursor prompt bundles (sidebar IDs)”** with a small table (ID → playbook → when to use), plus rows in “How to choose” and “Files in this folder.”  
+- **[`docs/playbooks/development/index.md`](docs/playbooks/development/index.md)** — same **Cursor prompt bundles** table (with `/ops/...` routes) and the new row in the full playbook list.  
+- **[`docs/getting-started/how-to-use-this-repo.md`](docs/getting-started/how-to-use-this-repo.md)** — step **6** points people at the bundles table and explains the **Ops** sidebar IDs.
+
+`npm run build` in `website/` completed successfully (existing cross-plugin link warnings are unchanged).
+
+**How to find it visually:** open **Ops** in the navbar → **Playbooks** → **Development** → look for **`[COH · Context7]`** or **`[Prompts ×5]`** in the sidebar labels, or use the **Cursor prompt bundles** table on the Development hub or category README.

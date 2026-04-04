@@ -146,3 +146,1496 @@ _**Agent (composer-2)**_
 <summary>Tool use: **read_file_v2**</summary>
 
 </details></tool-use>
+
+_**Agent (composer-2)**_
+
+
+Initializing the repository and creating the initial commit. GitHub CLI isn't authenticated, so we can't create the remote or provide a live URL until you sign in and create the repository.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git init && git add -A && git status</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git init && git add -A && git status
+```
+
+```
+/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.git/hooks/: Operation not permitted
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+
+
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git init && git add -A && git status</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git init && git add -A && git status
+```
+
+```
+Initialized empty Git repository in /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.git/
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached &lt;file&gt;..." to unstage)
+	new file:   .github/workflows/deploy-docs.yml
+	new file:   .gitignore
+	new file:   .specstory/.project.json
+	new file:   .specstory/cli/config.toml
+	new file:   .specstory/history/2026-03-26_08-05-16Z-innerflect-operational-intelligence-repository-setup.md
+	new file:   .specstory/history/2026-03-26_13-54-31Z-compliance-governance-for-credit-intermediation-website.md
+	new file:   .specstory/history/2026-03-28_08-26-03Z-visual-documentation-execution.md
+	new file:   .specstory/history/2026-03-28_08-38-07Z-deployment-prompt-structure-discussion.md
+	new file:   .specstory/history/2026-03-28_09-07-51Z-full-system-coherence-setup.md
+	new file:   .specstory/history/2026-03-28_09-24-20Z-github-documentation-sharing.md
+	new file:   .specstory/statistics.json
+	new file:   AGENTS.md
+	new file:   CHANGELOG.md
+	new file:   README.md
+	new file:   docs/archive/index.md
+	new file:   docs/checklists/index.md
+	new file:   docs/docusaurus-recommendation.md
+	new file:   docs/getting-started/how-to-use-this-repo.md
+	new file:   docs/getting-started/index.md
+	new file:   docs/index.md
+	new file:   docs/playbooks/branding/index.md
+	new file:   docs/playbooks/development/index.md
+	new file:   docs/playbooks/index.md
+	new file:   docs/playbooks/marketing/index.md
+	new file:   docs/playbooks/operations/index.md
+	new file:   docs/playbooks/project-management/index.md
+	new file:   docs/playbooks/sales/index.md
+	new file:   docs/sidebars-proposal.md
+	new file:   docs/standards/documentation-standards.md
+	new file:   docs/standards/index.md
+	new file:   docs/system/index.md
+	new file:   docs/system/inner-linking-conventions.md
+	new file:   docs/system/repository-map.md
+	new file:   docs/system/taxonomy.md
+	new file:   docs/templates/index.md
+	new file:   ops/00_governance/README.md
+	new file:   ops/00_governance/adding-a-playbook.md
+	new file:   ops/00_governance/archiving.md
+	new file:   ops/00_governance/avoiding-duplication.md
+	new file:   ops/00_governance/contribution-rules.md
+	new file:   ops/00_governance/docs-and-site-sync.md
+	new file:   ops/00_governance/mission.md
+	new file:   ops/00_governance/naming-conventions.md
+	new file:   ops/00_governance/prompt-usage-model.md
+	new file:   ops/00_governance/versioning-and-changelog.md
+	new file:   ops/01_core-rules/README.md
+	new file:   ops/01_core-rules/communication-standards.md
+	new file:   ops/01_core-rules/design-standards.md
+	new file:   ops/01_core-rules/development-standards.md
+	new file:   ops/01_core-rules/documentation-standards.md
+	new file:   ops/01_core-rules/git-github-standards.md
+	new file:   ops/01_core-rules/qa-standards.md
+	new file:   ops/01_core-rules/research-standards.md
+	new file:   ops/02_playbooks/README.md
+	new file:   ops/02_playbooks/branding/README.md
+	new file:   ops/02_playbooks/branding/brand-audit.md
+	new file:   ops/02_playbooks/branding/brand-core-definition.md
+	new file:   ops/02_playbooks/branding/messaging-framework.md
+	new file:   ops/02_playbooks/branding/sector-benchmark.md
+	new file:   ops/02_playbooks/branding/tone-of-voice.md
+	new file:   ops/02_playbooks/branding/visual-direction.md
+	new file:   ops/02_playbooks/development/README.md
+	new file:   ops/02_playbooks/development/architecture-planning.md
+	new file:   ops/02_playbooks/development/cursor-start.md
+	new file:   ops/02_playbooks/development/deployment-pipeline-prompts.md
+	new file:   ops/02_playbooks/development/docs-bootstrap.md
+	new file:   ops/02_playbooks/development/feature-implementation.md
+	new file:   ops/02_playbooks/development/full-audit.md
+	new file:   ops/02_playbooks/development/full-system-coherence-setup.md
+	new file:   ops/02_playbooks/development/performance-audit.md
+	new file:   ops/02_playbooks/development/pre-release-check.md
+	new file:   ops/02_playbooks/development/project-continuation.md
+	new file:   ops/02_playbooks/development/project-intake.md
+	new file:   ops/02_playbooks/development/project-setup.md
+	new file:   ops/02_playbooks/development/repo-bootstrap.md
+	new file:   ops/02_playbooks/development/ui-ux-audit.md
+	new file:   ops/02_playbooks/marketing/README.md
+	new file:   ops/02_playbooks/marketing/campaign-planning.md
+	new file:   ops/02_playbooks/marketing/competitor-analysis.md
+	new file:   ops/02_playbooks/marketing/content-strategy.md
+	new file:   ops/02_playbooks/marketing/conversion-analysis.md
+	new file:   ops/02_playbooks/marketing/market-research.md
+	new file:   ops/02_playbooks/marketing/offer-positioning.md
+	new file:   ops/02_playbooks/marketing/target-audience-definition.md
+	new file:   ops/02_playbooks/marketing/website-analysis.md
+	new file:   ops/02_playbooks/operations/README.md
+	new file:   ops/02_playbooks/operations/decision-log.md
+	new file:   ops/02_playbooks/operations/knowledge-capture.md
+	new file:   ops/02_playbooks/operations/process-improvement.md
+	new file:   ops/02_playbooks/operations/team-handoff.md
+	new file:   ops/02_playbooks/operations/weekly-review.md
+	new file:   ops/02_playbooks/project-management/README.md
+	new file:   ops/02_playbooks/project-management/client-intake.md
+	new file:   ops/02_playbooks/project-management/handoff.md
+	new file:   ops/02_playbooks/project-management/project-kickoff.md
+	new file:   ops/02_playbooks/project-management/proposal-builder.md
+	new file:   ops/02_playbooks/project-management/retrospective.md
+	new file:   ops/02_playbooks/project-management/scope-definition.md
+	new file:   ops/02_playbooks/sales/README.md
+	new file:   ops/02_playbooks/sales/call-prep.md
+	new file:   ops/02_playbooks/sales/first-contact-email.md
+	new file:   ops/02_playbooks/sales/follow-up-sequence.md
+	new file:   ops/02_playbooks/sales/outbound-research.md
+	new file:   ops/02_playbooks/sales/proposal-follow-up.md
+	new file:   ops/03_templates/README.md
+	new file:   ops/03_templates/audit-template.md
+	new file:   ops/03_templates/competitor-teardown-template.md
+	new file:   ops/03_templates/decision-log-template.md
+	new file:   ops/03_templates/playbook-template.md
+	new file:   ops/03_templates/project-handoff-template.md
+	new file:   ops/03_templates/proposal-template.md
+	new file:   ops/03_templates/research-report-template.md
+	new file:   ops/04_checklists/README.md
+	new file:   ops/04_checklists/docs-quality-review.md
+	new file:   ops/04_checklists/new-project-setup.md
+	new file:   ops/04_checklists/project-continuation.md
+	new file:   ops/04_checklists/prompt-quality-review.md
+	new file:   ops/04_checklists/release-readiness.md
+	new file:   ops/04_checklists/repo-health-review.md
+	new file:   ops/05_examples/README.md
+	new file:   ops/05_examples/bad-prompt-vs-good-playbook.md
+	new file:   ops/05_examples/clean-audit-output-example.md
+	new file:   ops/05_examples/good-playbook-example.md
+	new file:   ops/05_examples/reusable-research-output-example.md
+	new file:   ops/06_subagents/README.md
+	new file:   ops/07_skills/README.md
+	new file:   ops/08_mcp-guides/README.md
+	new file:   ops/09_archive/ARCHIVE_POLICY.md
+	new file:   ops/09_archive/README.md
+	new file:   ops/README.md
+	new file:   website/.gitignore
+	new file:   website/README.md
+	new file:   website/docusaurus.config.ts
+	new file:   website/package-lock.json
+	new file:   website/package.json
+	new file:   website/sidebars.ts
+	new file:   website/sidebarsOps.ts
+	new file:   website/src/components/HomepageFeatures/index.tsx
+	new file:   website/src/components/HomepageFeatures/styles.module.css
+	new file:   website/src/css/custom.css
+	new file:   website/src/pages/index.module.css
+	new file:   website/src/pages/index.tsx
+	new file:   website/static/.nojekyll
+	new file:   website/static/img/docusaurus-social-card.jpg
+	new file:   website/static/img/docusaurus.png
+	new file:   website/static/img/favicon.ico
+	new file:   website/static/img/logo.svg
+	new file:   website/static/img/undraw_docusaurus_mountain.svg
+	new file:   website/static/img/undraw_docusaurus_react.svg
+	new file:   website/static/img/undraw_docusaurus_tree.svg
+	new file:   website/tsconfig.json
+
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+
+
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.github/workflows/deploy-docs.yml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git commit --trailer "Made-with: Cursor" -m "Initial commit: Innerflect Ops documentation and playbooks"</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git commit --trailer "Made-with: Cursor" -m "Initial commit: Innerflect Ops documentation and playbooks"
+```
+
+```
+[main (root-commit) d8dbb2d] Initial commit: Innerflect Ops documentation and playbooks
+ 151 files changed, 49079 insertions(+)
+ create mode 100644 .github/workflows/deploy-docs.yml
+ create mode 100644 .gitignore
+ create mode 100644 .specstory/.project.json
+ create mode 100644 .specstory/cli/config.toml
+ create mode 100644 .specstory/history/2026-03-26_08-05-16Z-innerflect-operational-intelligence-repository-setup.md
+ create mode 100644 .specstory/history/2026-03-26_13-54-31Z-compliance-governance-for-credit-intermediation-website.md
+ create mode 100644 .specstory/history/2026-03-28_08-26-03Z-visual-documentation-execution.md
+ create mode 100644 .specstory/history/2026-03-28_08-38-07Z-deployment-prompt-structure-discussion.md
+ create mode 100644 .specstory/history/2026-03-28_09-07-51Z-full-system-coherence-setup.md
+ create mode 100644 .specstory/history/2026-03-28_09-24-20Z-github-documentation-sharing.md
+ create mode 100644 .specstory/statistics.json
+ create mode 100644 AGENTS.md
+ create mode 100644 CHANGELOG.md
+ create mode 100644 README.md
+ create mode 100644 docs/archive/index.md
+ create mode 100644 docs/checklists/index.md
+ create mode 100644 docs/docusaurus-recommendation.md
+ create mode 100644 docs/getting-started/how-to-use-this-repo.md
+ create mode 100644 docs/getting-started/index.md
+ create mode 100644 docs/index.md
+ create mode 100644 docs/playbooks/branding/index.md
+ create mode 100644 docs/playbooks/development/index.md
+ create mode 100644 docs/playbooks/index.md
+ create mode 100644 docs/playbooks/marketing/index.md
+ create mode 100644 docs/playbooks/operations/index.md
+ create mode 100644 docs/playbooks/project-management/index.md
+ create mode 100644 docs/playbooks/sales/index.md
+ create mode 100644 docs/sidebars-proposal.md
+ create mode 100644 docs/standards/documentation-standards.md
+ create mode 100644 docs/standards/index.md
+ create mode 100644 docs/system/index.md
+ create mode 100644 docs/system/inner-linking-conventions.md
+ create mode 100644 docs/system/repository-map.md
+ create mode 100644 docs/system/taxonomy.md
+ create mode 100644 docs/templates/index.md
+ create mode 100644 ops/00_governance/README.md
+ create mode 100644 ops/00_governance/adding-a-playbook.md
+ create mode 100644 ops/00_governance/archiving.md
+ create mode 100644 ops/00_governance/avoiding-duplication.md
+ create mode 100644 ops/00_governance/contribution-rules.md
+ create mode 100644 ops/00_governance/docs-and-site-sync.md
+ create mode 100644 ops/00_governance/mission.md
+ create mode 100644 ops/00_governance/naming-conventions.md
+ create mode 100644 ops/00_governance/prompt-usage-model.md
+ create mode 100644 ops/00_governance/versioning-and-changelog.md
+ create mode 100644 ops/01_core-rules/README.md
+ create mode 100644 ops/01_core-rules/communication-standards.md
+ create mode 100644 ops/01_core-rules/design-standards.md
+ create mode 100644 ops/01_core-rules/development-standards.md
+ create mode 100644 ops/01_core-rules/documentation-standards.md
+ create mode 100644 ops/01_core-rules/git-github-standards.md
+ create mode 100644 ops/01_core-rules/qa-standards.md
+ create mode 100644 ops/01_core-rules/research-standards.md
+ create mode 100644 ops/02_playbooks/README.md
+ create mode 100644 ops/02_playbooks/branding/README.md
+ create mode 100644 ops/02_playbooks/branding/brand-audit.md
+ create mode 100644 ops/02_playbooks/branding/brand-core-definition.md
+ create mode 100644 ops/02_playbooks/branding/messaging-framework.md
+ create mode 100644 ops/02_playbooks/branding/sector-benchmark.md
+ create mode 100644 ops/02_playbooks/branding/tone-of-voice.md
+ create mode 100644 ops/02_playbooks/branding/visual-direction.md
+ create mode 100644 ops/02_playbooks/development/README.md
+ create mode 100644 ops/02_playbooks/development/architecture-planning.md
+ create mode 100644 ops/02_playbooks/development/cursor-start.md
+ create mode 100644 ops/02_playbooks/development/deployment-pipeline-prompts.md
+ create mode 100644 ops/02_playbooks/development/docs-bootstrap.md
+ create mode 100644 ops/02_playbooks/development/feature-implementation.md
+ create mode 100644 ops/02_playbooks/development/full-audit.md
+ create mode 100644 ops/02_playbooks/development/full-system-coherence-setup.md
+ create mode 100644 ops/02_playbooks/development/performance-audit.md
+ create mode 100644 ops/02_playbooks/development/pre-release-check.md
+ create mode 100644 ops/02_playbooks/development/project-continuation.md
+ create mode 100644 ops/02_playbooks/development/project-intake.md
+ create mode 100644 ops/02_playbooks/development/project-setup.md
+ create mode 100644 ops/02_playbooks/development/repo-bootstrap.md
+ create mode 100644 ops/02_playbooks/development/ui-ux-audit.md
+ create mode 100644 ops/02_playbooks/marketing/README.md
+ create mode 100644 ops/02_playbooks/marketing/campaign-planning.md
+ create mode 100644 ops/02_playbooks/marketing/competitor-analysis.md
+ create mode 100644 ops/02_playbooks/marketing/content-strategy.md
+ create mode 100644 ops/02_playbooks/marketing/conversion-analysis.md
+ create mode 100644 ops/02_playbooks/marketing/market-research.md
+ create mode 100644 ops/02_playbooks/marketing/offer-positioning.md
+ create mode 100644 ops/02_playbooks/marketing/target-audience-definition.md
+ create mode 100644 ops/02_playbooks/marketing/website-analysis.md
+ create mode 100644 ops/02_playbooks/operations/README.md
+ create mode 100644 ops/02_playbooks/operations/decision-log.md
+ create mode 100644 ops/02_playbooks/operations/knowledge-capture.md
+ create mode 100644 ops/02_playbooks/operations/process-improvement.md
+ create mode 100644 ops/02_playbooks/operations/team-handoff.md
+ create mode 100644 ops/02_playbooks/operations/weekly-review.md
+ create mode 100644 ops/02_playbooks/project-management/README.md
+ create mode 100644 ops/02_playbooks/project-management/client-intake.md
+ create mode 100644 ops/02_playbooks/project-management/handoff.md
+ create mode 100644 ops/02_playbooks/project-management/project-kickoff.md
+ create mode 100644 ops/02_playbooks/project-management/proposal-builder.md
+ create mode 100644 ops/02_playbooks/project-management/retrospective.md
+ create mode 100644 ops/02_playbooks/project-management/scope-definition.md
+ create mode 100644 ops/02_playbooks/sales/README.md
+ create mode 100644 ops/02_playbooks/sales/call-prep.md
+ create mode 100644 ops/02_playbooks/sales/first-contact-email.md
+ create mode 100644 ops/02_playbooks/sales/follow-up-sequence.md
+ create mode 100644 ops/02_playbooks/sales/outbound-research.md
+ create mode 100644 ops/02_playbooks/sales/proposal-follow-up.md
+ create mode 100644 ops/03_templates/README.md
+ create mode 100644 ops/03_templates/audit-template.md
+ create mode 100644 ops/03_templates/competitor-teardown-template.md
+ create mode 100644 ops/03_templates/decision-log-template.md
+ create mode 100644 ops/03_templates/playbook-template.md
+ create mode 100644 ops/03_templates/project-handoff-template.md
+ create mode 100644 ops/03_templates/proposal-template.md
+ create mode 100644 ops/03_templates/research-report-template.md
+ create mode 100644 ops/04_checklists/README.md
+ create mode 100644 ops/04_checklists/docs-quality-review.md
+ create mode 100644 ops/04_checklists/new-project-setup.md
+ create mode 100644 ops/04_checklists/project-continuation.md
+ create mode 100644 ops/04_checklists/prompt-quality-review.md
+ create mode 100644 ops/04_checklists/release-readiness.md
+ create mode 100644 ops/04_checklists/repo-health-review.md
+ create mode 100644 ops/05_examples/README.md
+ create mode 100644 ops/05_examples/bad-prompt-vs-good-playbook.md
+ create mode 100644 ops/05_examples/clean-audit-output-example.md
+ create mode 100644 ops/05_examples/good-playbook-example.md
+ create mode 100644 ops/05_examples/reusable-research-output-example.md
+ create mode 100644 ops/06_subagents/README.md
+ create mode 100644 ops/07_skills/README.md
+ create mode 100644 ops/08_mcp-guides/README.md
+ create mode 100644 ops/09_archive/ARCHIVE_POLICY.md
+ create mode 100644 ops/09_archive/README.md
+ create mode 100644 ops/README.md
+ create mode 100644 website/.gitignore
+ create mode 100644 website/README.md
+ create mode 100644 website/docusaurus.config.ts
+ create mode 100644 website/package-lock.json
+ create mode 100644 website/package.json
+ create mode 100644 website/sidebars.ts
+ create mode 100644 website/sidebarsOps.ts
+ create mode 100644 website/src/components/HomepageFeatures/index.tsx
+ create mode 100644 website/src/components/HomepageFeatures/styles.module.css
+ create mode 100644 website/src/css/custom.css
+ create mode 100644 website/src/pages/index.module.css
+ create mode 100644 website/src/pages/index.tsx
+ create mode 100644 website/static/.nojekyll
+ create mode 100644 website/static/img/docusaurus-social-card.jpg
+ create mode 100644 website/static/img/docusaurus.png
+ create mode 100644 website/static/img/favicon.ico
+ create mode 100644 website/static/img/logo.svg
+ create mode 100644 website/static/img/undraw_docusaurus_mountain.svg
+ create mode 100644 website/static/img/undraw_docusaurus_react.svg
+ create mode 100644 website/static/img/undraw_docusaurus_tree.svg
+ create mode 100644 website/tsconfig.json
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Initializing git repo**
+
+I initialized git and committed locally, but cannot create remote repo without user authentication. 
+
+**Setting up remote repo**
+
+I'm setting up the remote repository with GitHub CLI after authentication. </details></think>
+
+_**Agent (composer-2)**_
+
+
+
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/docusaurus.config.ts</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+
+Here is what is in place and what is blocking a real GitHub URL.
+
+## What I did
+
+1. **Initialized Git** in `/Users/indiasfernandes/Innerflect_Operational_Intelligence_System`.
+2. **Created an initial commit** on `main` (`d8dbb2d`) with the full tree (including `docs/`, `ops/`, `website/`, and `.github/workflows/deploy-docs.yml`).
+
+## Why there is no link yet
+
+**GitHub CLI is not logged in** (`gh auth status` reports no host). I cannot create a remote repository or push from this environment without your account. A shareable link only exists after you create the repo on GitHub and push (or use `gh` while authenticated).
+
+## Links you will get after publishing
+
+Replace `YOUR_USER_OR_ORG` and `YOUR_REPO` with your GitHub username/org and repository name.
+
+| What | URL pattern |
+|------|-------------|
+| **Repository** (Markdown in `docs/` browsable on GitHub) | `https://github.com/YOUR_USER_OR_ORG/YOUR_REPO` |
+| **Built docs site** (Docusaurus, from your workflow) | `https://YOUR_USER_OR_ORG.github.io/YOUR_REPO/` |
+
+The workflow in `.github/workflows/deploy-docs.yml` sets `DOCUSAURUS_URL` / `DOCUSAURUS_BASE_URL` for that Pages URL and deploys to the **`gh-pages`** branch. After the first successful run, enable **Settings → Pages → Build and deployment → Branch: `gh-pages` / `/ (root)`** if GitHub does not set it automatically.
+
+## Commands for you (after login)
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System
+gh auth login
+```
+
+Create and push in one step (pick a visibility and name):
+
+```bash
+gh repo create YOUR_REPO_NAME --public --source=. --remote=origin --push
+```
+
+Or create an empty repo in the browser, then:
+
+```bash
+git remote add origin https://github.com/YOUR_USER_OR_ORG/YOUR_REPO_NAME.git
+git push -u origin main
+```
+
+After `main` is on GitHub, the **Deploy documentation** workflow should run (it watches `docs/`, `ops/`, `website/`). When it finishes, use:
+
+**`https://YOUR_USER_OR_ORG.github.io/YOUR_REPO_NAME/`**
+
+If you tell me your GitHub username and the exact repo name you want, I can echo back the two final URLs with no placeholders. I cannot complete the push or produce a live link until `gh` (or a manual remote + push) runs on your machine with your credentials.
+
+---
+
+_**User**_
+
+to here https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System 
+
+---
+
+_**Agent (composer-2)**_
+
+
+Adding the GitHub remote and pushing to that repository.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git remote -v && git branch -a</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git remote -v && git branch -a
+```
+
+```
+* main
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+
+
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git remote add origin https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git && git push -u origin main</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git remote add origin https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git && git push -u origin main
+```
+
+```
+branch 'main' set up to track 'origin/main'.
+To https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git
+ * [new branch]      main -&gt; main
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+
+Push completed. Your code is on GitHub here:
+
+**Repository:** [https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System](https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System)
+
+`main` is tracking `origin/main`.
+
+After the **Deploy documentation** workflow finishes on GitHub Actions, the built Docusaurus site should be available at:
+
+**https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/**
+
+(That matches your workflow’s `DOCUSAURUS_URL` / `DOCUSAURUS_BASE_URL`. If Pages is not enabled yet, open the repo → **Settings → Pages** and set the source to the **`gh-pages`** branch.)
+
+---
+
+_**User**_
+
+404
+There isn't a GitHub Pages site here.
+
+If you're trying to publish one, read the full documentation to learn how to set up GitHub Pages for your repository, organization, or user account.
+
+GitHub Status — @githubstatus
+
+
+---
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Checking deploy workflow**
+
+I'm reviewing the GitHub Actions workflow and Docusaurus config to identify why the site returns 404 on GitHub Pages. </details></think>
+
+_**Agent (composer-2)**_
+
+Tracing why GitHub Pages returns 404: checking the remote branches and the deploy workflow.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git fetch origin && git branch -r</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git fetch origin && git branch -r
+```
+
+```
+  origin/HEAD -&gt; origin/main
+  origin/gh-pages
+  origin/main
+From https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System
+ * [new branch]      gh-pages   -&gt; origin/gh-pages
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.github/workflows/deploy-docs.yml</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/docusaurus.config.ts</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Checking gh-pages deployment**
+
+The gh-pages branch exists, so the deployment workflow ran; the 404 likely stems from incorrect GitHub Pages source configuration or wrong URL. The GitHub Pages URL should be `https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/` with the correct repo name and path. 
+
+**Configuring github pages**
+
+I'm adding a GitHub Actions workflow to deploy to gh-pages branch using official GitHub Pages actions. I'm switching to the modern GitHub Actions approach for Pages deployment with proper permissions and the deploy-pages action. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sI "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/" | head -20</summary>
+
+```bash
+curl -sI "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/" | head -20
+```
+
+```
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+etag: "69c463e4-239b"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-github-request-id: 9B5E:75944:287CC0:2A51A0:69C79F23
+accept-ranges: bytes
+age: 0
+date: Sat, 28 Mar 2026 09:28:04 GMT
+via: 1.1 varnish
+x-served-by: cache-sin-wsat1880074-SIN
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1774690084.063178,VS0,VE271
+vary: Accept-Encoding
+x-fastly-request-id: 2208203236709a5025bd1a2863fbd313450df435
+content-length: 9115
+
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git ls-tree --name-only origin/gh-pages | head -20</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git ls-tree --name-only origin/gh-pages | head -20
+```
+
+```
+.nojekyll
+404.html
+assets
+docs
+img
+index.html
+ops
+sitemap.xml
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Configuring GitHub Pages**
+
+I'm updating the workflow to use GitHub Actions Pages deployment which automatically configures GitHub Pages. I'm switching to the standard GitHub Pages configuration using the publishing source setting. I'm implementing the standard GitHub Pages deployment pattern with proper permissions and concurrency settings. 
+
+**Setting up CI/CD pipeline**
+
+I'm implementing the GitHub Actions workflow for automated deployments to GitHub Pages. 
+
+**Updating deployment workflow**
+
+I'm replacing the peaceiris action with the official deploy-pages workflow to ensure proper deployment registration and GitHub Pages integration. I'm updating the deployment workflow to use the official GitHub Actions deploy-pages action with proper permissions and artifact upload. I'm configuring the deployment workflow to use GitHub Actions deploy-pages with proper permissions and artifact upload. I'm adjusting the deployment workflow to separate artifact upload and deployment into distinct jobs. I'm reviewing the GitHub Actions workflow configuration for the deployment process. 
+
+I'm configuring the GitHub Actions workflow to build and upload the website artifact. I'm verifying the artifact path for upload-pages-artifact and adjusting permissions to grant read-only access for the build job. </details></think>
+
+_**Agent (composer-2)**_
+
+Confirming: `gh-pages` contains a valid build (`index.html`, assets), but GitHub Pages isn't serving it — the repo likely has no publishing source enabled. Migrating the workflow to GitHub's official Pages deployment (`actions/deploy-pages`) so Pages uses the GitHub Actions source and deploys reliably.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.github/workflows/deploy-docs.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Verifying deployment pattern**
+
+I'm confirming that deploy-pages automatically retrieves artifacts from the same workflow run, so manual download isn't needed. I confirmed that artifacts are automatically linked and documented the first-time setup requirements for GitHub Pages. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git add .github/workflows/deploy-docs.yml && git commit --trailer "Made-with: Cursor" -m "ci: deploy docs with official GitHub Pages Actions (fix 404)" && git push origin main</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git add .github/workflows/deploy-docs.yml && git commit --trailer "Made-with: Cursor" -m "ci: deploy docs with official GitHub Pages Actions (fix 404)" && git push origin main
+```
+
+```
+[main 7521031] ci: deploy docs with official GitHub Pages Actions (fix 404)
+ 1 file changed, 20 insertions(+), 9 deletions(-)
+To https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git
+   d8dbb2d..7521031  main -&gt; main
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Updating deployment instructions**
+
+I'm documenting the new GitHub Actions deployment process and noting that users can still use 'Deploy from branch' as an alternative. </details></think>
+
+_**Agent (composer-2)**_
+
+Here is what was going wrong and what we changed.
+
+## Cause
+
+The **`gh-pages` branch is fine** (it has `index.html`, `docs/`, `ops/`, etc.). A 404 at `https://indiasfernandes.github.io/...` usually means **GitHub Pages was never told to publish anything** for this repo. Pushing to `gh-pages` with `peaceiris/actions-gh-pages` does **not** turn Pages on by itself; you have to set the publishing source under **Settings → Pages**.
+
+## What we did
+
+The workflow was updated to use GitHub’s **official** flow: `actions/upload-pages-artifact` + `actions/deploy-pages`. That is meant to work with the **“GitHub Actions”** Pages source and is easier than managing the `gh-pages` branch by hand.
+
+Change is pushed on **`main`** as commit `7521031`.
+
+## What you should do in the repo (one-time)
+
+1. Open **[https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System/settings/pages](https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System/settings/pages)**.
+2. Under **Build and deployment → Source**, choose **GitHub Actions** (not “Deploy from a branch” unless you intentionally want only the `gh-pages` branch).
+3. Wait for the **Deploy documentation** run on the **Actions** tab to finish green. If GitHub asks to approve the **`github-pages`** environment, approve it.
+4. Open the site again:  
+   **https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/**
+
+If you prefer **not** to use the new workflow, you can instead keep **Source: Deploy from a branch**, branch **`gh-pages`**, folder **`/ (root)`** — that would also fix the 404 for the existing branch, but the new workflow is the one aligned with current GitHub guidance.
+
+After Pages is enabled and the latest workflow succeeds, the 404 should clear within a minute or two (CDN cache can occasionally add a short delay).
+
+---
+
+_**User**_
+
+no css...
+styles.df27d93e.css:1  Failed to load resource: the server responded with a status of 404 ()
+logo.svg:1  Failed to load resource: the server responded with a status of 404 ()
+runtime~main.4870f4d7.js:1  Failed to load resource: the server responded with a status of 404 ()
+main.10e6e249.js:1  Failed to load resource: the server responded with a status of 404 ()
+logo.svg:1  Failed to load resource: the server responded with a status of 404 ()
+styles.df27d93e.css:1  Failed to load resource: the server responded with a status of 404 ()
+
+
+---
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Fixing asset paths**
+
+I'm correcting the baseUrl in Docusaurus config to match GitHub Pages deployment path. 
+
+**Checking case sensitivity**
+
+The GitHub repository name 'Innerflect-Operational-Intelligence-System' might cause issues with case-sensitive paths in the deployment URL. The deployment URL path is case-sensitive and may not match the expected case in some environments. 
+
+**Checking deployment config**
+
+I'm reviewing the Docusaurus config and GitHub Actions workflow to identify why deployment is serving from the wrong root path. 
+
+**Updating base url**
+
+I'm setting the baseUrl to `/repo-name/` in the Docusaurus config to match the GitHub Pages project site structure. I'm checking Docusaurus config for baseUrl usage and verifying environment variable injection for CI builds. 
+
+**Checking config overrides**
+
+I'm reviewing docusaurus.config.js for baseUrl and projectName usage that might affect deployment URL generation. I'm testing local build with DOCUSAURUS_URL and DOCUSAURUS_BASE_URL env vars to verify deployment URL generation. I'm investigating potential case sensitivity issues with username 'IndiasFernandes' vs 'indiasfernandes' in asset paths. I'm testing build with correct env vars and inspecting baseUrl in built HTML. 
+
+**Verifying env vars**
+
+I'm confirming the correct environment variable names for URL and base URL in Docusaurus config. </details></think>
+
+_**Agent (composer-2)**_
+
+Diagnosing a base URL mismatch: assets request paths without the repo prefix. Checking the built HTML and config.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/" | head -80</summary>
+
+```bash
+curl -sL "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/" | head -80
+```
+
+```
+&lt;!doctype html&gt;
+&lt;html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-index" data-has-hydrated="false"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="generator" content="Docusaurus v3.9.2"&gt;
+&lt;title data-rh="true"&gt;Innerflect Ops Documentation | Innerflect Ops&lt;/title&gt;&lt;meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"&gt;&lt;meta data-rh="true" name="twitter:card" content="summary_large_image"&gt;&lt;meta data-rh="true" property="og:url" content="https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/docs/"&gt;&lt;meta data-rh="true" property="og:locale" content="en"&gt;&lt;meta data-rh="true" name="docusaurus_locale" content="en"&gt;&lt;meta data-rh="true" name="docsearch:language" content="en"&gt;&lt;meta data-rh="true" name="docusaurus_version" content="current"&gt;&lt;meta data-rh="true" name="docusaurus_tag" content="docs-default-current"&gt;&lt;meta data-rh="true" name="docsearch:version" content="current"&gt;&lt;meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"&gt;&lt;meta data-rh="true" property="og:title" content="Innerflect Ops Documentation | Innerflect Ops"&gt;&lt;meta data-rh="true" name="description" content="Navigation hub for the Innerflect operational intelligence system—how to use the repo, standards, and links to canonical playbooks."&gt;&lt;meta data-rh="true" property="og:description" content="Navigation hub for the Innerflect operational intelligence system—how to use the repo, standards, and links to canonical playbooks."&gt;&lt;link data-rh="true" rel="icon" href="/Innerflect-Operational-Intelligence-System/img/logo.svg"&gt;&lt;link data-rh="true" rel="canonical" href="https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/docs/"&gt;&lt;link data-rh="true" rel="alternate" href="https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/docs/" hreflang="en"&gt;&lt;link data-rh="true" rel="alternate" href="https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/docs/" hreflang="x-default"&gt;&lt;script data-rh="true" type="application/ld+json"&gt;{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Innerflect Ops Documentation","item":"https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/docs/"}]}&lt;/script&gt;&lt;link rel="stylesheet" href="/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css"&gt;
+&lt;script src="/Innerflect-Operational-Intelligence-System/assets/js/runtime~main.4870f4d7.js" defer="defer"&gt;&lt;/script&gt;
+&lt;script src="/Innerflect-Operational-Intelligence-System/assets/js/main.10e6e249.js" defer="defer"&gt;&lt;/script&gt;
+&lt;/head&gt;
+&lt;body class="navigation-with-keyboard"&gt;
+&lt;svg style="display: none;"&gt;&lt;defs&gt;
+&lt;symbol id="theme-svg-external-link" viewBox="0 0 24 24"&gt;&lt;path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/&gt;&lt;/symbol&gt;
+&lt;/defs&gt;&lt;/svg&gt;
+&lt;script&gt;!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"light"),document.documentElement.setAttribute("data-theme-choice",t||"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()&lt;/script&gt;&lt;div id="__docusaurus"&gt;&lt;link rel="preload" as="image" href="/Innerflect-Operational-Intelligence-System/img/logo.svg"&gt;&lt;div role="region" aria-label="Skip to main content"&gt;&lt;a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback"&gt;Skip to main content&lt;/a&gt;&lt;/div&gt;&lt;nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"&gt;&lt;div class="navbar__inner"&gt;&lt;div class="theme-layout-navbar-left navbar__items"&gt;&lt;button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"&gt;&lt;svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"&gt;&lt;path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;a class="navbar__brand" href="/Innerflect-Operational-Intelligence-System/"&gt;&lt;div class="navbar__logo"&gt;&lt;img src="/Innerflect-Operational-Intelligence-System/img/logo.svg" alt="Innerflect Ops" class="themedComponent_mlkZ themedComponent--light_NVdE"&gt;&lt;img src="/Innerflect-Operational-Intelligence-System/img/logo.svg" alt="Innerflect Ops" class="themedComponent_mlkZ themedComponent--dark_xIcU"&gt;&lt;/div&gt;&lt;b class="navbar__title text--truncate"&gt;Innerflect Ops&lt;/b&gt;&lt;/a&gt;&lt;a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/Innerflect-Operational-Intelligence-System/docs/"&gt;Docs&lt;/a&gt;&lt;a class="navbar__item navbar__link" href="/Innerflect-Operational-Intelligence-System/ops/governance/"&gt;Ops&lt;/a&gt;&lt;/div&gt;&lt;div class="theme-layout-navbar-right navbar__items navbar__items--right"&gt;&lt;div class="toggle_vylO colorModeToggle_DEke"&gt;&lt;button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"&gt;&lt;svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"&gt;&lt;path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"&gt;&lt;path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"&gt;&lt;path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/div&gt;&lt;div class="navbarSearchContainer_Bca1"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div role="presentation" class="navbar-sidebar__backdrop"&gt;&lt;/div&gt;&lt;/nav&gt;&lt;div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"&gt;&lt;div class="docsWrapper_hBAB"&gt;&lt;button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"&gt;&lt;/button&gt;&lt;div class="docRoot_UBD9"&gt;&lt;aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"&gt;&lt;div class="sidebarViewport_aRkj"&gt;&lt;div class="sidebar_njMd"&gt;&lt;nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"&gt;&lt;ul class="theme-doc-sidebar-menu menu__list"&gt;&lt;li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"&gt;&lt;a class="menu__link menu__link--active" aria-current="page" href="/Innerflect-Operational-Intelligence-System/docs/"&gt;&lt;span title="Innerflect Ops Documentation" class="linkLabel_WmDU"&gt;Innerflect Ops Documentation&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"&gt;&lt;div class="menu__list-item-collapsible"&gt;&lt;a class="categoryLink_byQd menu__link menu__link--sublist" href="/Innerflect-Operational-Intelligence-System/docs/getting-started/"&gt;&lt;span title="Getting Started" class="categoryLinkLabel_W154"&gt;Getting Started&lt;/span&gt;&lt;/a&gt;&lt;button aria-label="Expand sidebar category &amp;#x27;Getting Started&amp;#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"&gt;&lt;/button&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"&gt;&lt;div class="menu__list-item-collapsible"&gt;&lt;a class="categoryLink_byQd menu__link menu__link--sublist" href="/Innerflect-Operational-Intelligence-System/docs/system/"&gt;&lt;span title="System" class="categoryLinkLabel_W154"&gt;System&lt;/span&gt;&lt;/a&gt;&lt;button aria-label="Expand sidebar category &amp;#x27;System&amp;#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"&gt;&lt;/button&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"&gt;&lt;div class="menu__list-item-collapsible"&gt;&lt;a class="categoryLink_byQd menu__link menu__link--sublist" href="/Innerflect-Operational-Intelligence-System/docs/playbooks/"&gt;&lt;span title="Playbooks" class="categoryLinkLabel_W154"&gt;Playbooks&lt;/span&gt;&lt;/a&gt;&lt;button aria-label="Expand sidebar category &amp;#x27;Playbooks&amp;#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"&gt;&lt;/button&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"&gt;&lt;a class="menu__link" href="/Innerflect-Operational-Intelligence-System/docs/templates/"&gt;&lt;span title="Templates" class="linkLabel_WmDU"&gt;Templates&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"&gt;&lt;a class="menu__link" href="/Innerflect-Operational-Intelligence-System/docs/checklists/"&gt;&lt;span title="Checklists" class="linkLabel_WmDU"&gt;Checklists&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"&gt;&lt;div class="menu__list-item-collapsible"&gt;&lt;a class="categoryLink_byQd menu__link menu__link--sublist" href="/Innerflect-Operational-Intelligence-System/docs/standards/"&gt;&lt;span title="Standards" class="categoryLinkLabel_W154"&gt;Standards&lt;/span&gt;&lt;/a&gt;&lt;button aria-label="Expand sidebar category &amp;#x27;Standards&amp;#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"&gt;&lt;/button&gt;&lt;/div&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"&gt;&lt;a class="menu__link" href="/Innerflect-Operational-Intelligence-System/docs/archive/"&gt;&lt;span title="Archive" class="linkLabel_WmDU"&gt;Archive&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"&gt;&lt;a class="menu__link" href="/Innerflect-Operational-Intelligence-System/docs/docusaurus-recommendation"&gt;&lt;span title="Docusaurus recommendation" class="linkLabel_WmDU"&gt;Docusaurus recommendation&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"&gt;&lt;a class="menu__link" href="/Innerflect-Operational-Intelligence-System/docs/sidebars-proposal"&gt;&lt;span title="Sidebar proposal (Docusaurus)" class="linkLabel_WmDU"&gt;Sidebar proposal (Docusaurus)&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;/div&gt;&lt;/div&gt;&lt;/aside&gt;&lt;main class="docMainContainer_TBSr"&gt;&lt;div class="container padding-top--md padding-bottom--lg"&gt;&lt;div class="row"&gt;&lt;div class="col docItemCol_VOVn"&gt;&lt;div class="docItemContainer_Djhp"&gt;&lt;article&gt;&lt;nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"&gt;&lt;ul class="breadcrumbs"&gt;&lt;li class="breadcrumbs__item"&gt;&lt;a aria-label="Home page" class="breadcrumbs__link" href="/Innerflect-Operational-Intelligence-System/"&gt;&lt;svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"&gt;&lt;path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;&lt;li class="breadcrumbs__item breadcrumbs__item--active"&gt;&lt;span class="breadcrumbs__link"&gt;Innerflect Ops Documentation&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/nav&gt;&lt;div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"&gt;&lt;button type="button" class="clean-btn tocCollapsibleButton_TO0P"&gt;On this page&lt;/button&gt;&lt;/div&gt;&lt;div class="theme-doc-markdown markdown"&gt;&lt;header&gt;&lt;h1&gt;Innerflect Ops Documentation&lt;/h1&gt;&lt;/header&gt;
+&lt;p&gt;This site-oriented layer explains &lt;strong&gt;how the repository works&lt;/strong&gt; and links to &lt;strong&gt;canonical operational assets&lt;/strong&gt; under &lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/"&gt;&lt;code&gt;ops/&lt;/code&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="start-here"&gt;Start here&lt;a href="#start-here" class="hash-link" aria-label="Direct link to Start here" title="Direct link to Start here" translate="no"&gt;​&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/getting-started/"&gt;Getting started&lt;/a&gt; — first session with the repo&lt;/li&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/getting-started/how-to-use-this-repo"&gt;How to use this repo&lt;/a&gt; — workflows for humans and AI-assisted work&lt;/li&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/system/repository-map"&gt;Repository map&lt;/a&gt; — where everything lives&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="browse-by-function"&gt;Browse by function&lt;a href="#browse-by-function" class="hash-link" aria-label="Direct link to Browse by function" title="Direct link to Browse by function" translate="no"&gt;​&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Area&lt;/th&gt;&lt;th&gt;Docs hub&lt;/th&gt;&lt;th&gt;Canonical path&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Playbooks&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/playbooks/"&gt;Playbooks&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/02_playbooks/"&gt;&lt;code&gt;ops/02_playbooks/&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Templates&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/templates/"&gt;Templates&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/03_templates/"&gt;&lt;code&gt;ops/03_templates/&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Checklists&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/checklists/"&gt;Checklists&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/04_checklists/"&gt;&lt;code&gt;ops/04_checklists/&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Standards&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/standards/"&gt;Standards&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/01_core-rules/"&gt;&lt;code&gt;ops/01_core-rules/&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Examples&lt;/td&gt;&lt;td&gt;—&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/05_examples/"&gt;&lt;code&gt;ops/05_examples/&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Governance&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/system/taxonomy"&gt;System → Taxonomy&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/ops/00_governance/"&gt;&lt;code&gt;ops/00_governance/&lt;/code&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;
+&lt;h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="system-reference"&gt;System reference&lt;a href="#system-reference" class="hash-link" aria-label="Direct link to System reference" title="Direct link to System reference" translate="no"&gt;​&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/system/"&gt;System overview&lt;/a&gt;&lt;/li&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/system/taxonomy"&gt;Taxonomy&lt;/a&gt; — how content is classified&lt;/li&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/system/inner-linking-conventions"&gt;Linking conventions&lt;/a&gt; — consistent internal links&lt;/li&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/standards/documentation-standards"&gt;Documentation standards&lt;/a&gt; — adding and editing pages&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="site-build-future"&gt;Site build (future)&lt;a href="#site-build-future" class="hash-link" aria-label="Direct link to Site build (future)" title="Direct link to Site build (future)" translate="no"&gt;​&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/docusaurus-recommendation"&gt;Docusaurus recommendation&lt;/a&gt;&lt;/li&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/sidebars-proposal"&gt;Sidebar proposal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="archive"&gt;Archive&lt;a href="#archive" class="hash-link" aria-label="Direct link to Archive" title="Direct link to Archive" translate="no"&gt;​&lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li class=""&gt;&lt;a class="" href="/Innerflect-Operational-Intelligence-System/docs/archive/"&gt;Archive&lt;/a&gt; — superseded material and policy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/docusaurus.config.ts</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sI "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css" | head -15</summary>
+
+```bash
+curl -sI "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css" | head -15
+```
+
+```
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "64d39a40-24a3"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: 60C6:369904:28C01F:2A9698:69C79FE5
+accept-ranges: bytes
+age: 0
+date: Sat, 28 Mar 2026 09:31:18 GMT
+via: 1.1 varnish
+x-served-by: cache-sin-wsat1880071-SIN
+x-cache: MISS
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sI "https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css" | head -15</summary>
+
+```bash
+curl -sI "https://IndiasFernandes.github.io/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css" | head -15
+```
+
+```
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+access-control-allow-origin: *
+strict-transport-security: max-age=31556952
+etag: "64d39a40-24a3"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-proxy-cache: MISS
+x-github-request-id: 60C6:369904:28C01F:2A9698:69C79FE5
+accept-ranges: bytes
+date: Sat, 28 Mar 2026 09:31:19 GMT
+via: 1.1 varnish
+age: 1
+x-served-by: cache-sin-wsat1880052-SIN
+x-cache: HIT
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Deploying assets**
+
+The deployed artifact is missing CSS assets at the expected path, likely due to incorrect build output configuration. The deployed artifact root matches the build folder contents, so CSS paths should be correct at `repo-name/assets/css/...`. The CSS paths are correct but assets aren't being deployed, causing 404 errors. 
+
+**Checking deployment structure**
+
+The deployment structure is incorrect; assets aren't loading because they're nested in the wrong directory relative to the deployed path. 
+
+**Updating URL paths**
+
+I'm adding the `repo-name` prefix to absolute URLs starting with `/repo-name/` to match the deployment structure. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sI "https://indiasfernandes.github.io/innerflect-operational-intelligence-system/assets/css/styles.df27d93e.css" | head -5</summary>
+
+```bash
+curl -sI "https://indiasfernandes.github.io/innerflect-operational-intelligence-system/assets/css/styles.df27d93e.css" | head -5
+```
+
+```
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+etag: "69c463e5-239b"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sL "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/index.html" | grep -o 'href="[^"]*styles[^"]*"' | head -3</summary>
+
+```bash
+curl -sL "https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/index.html" | grep -o 'href="[^"]*styles[^"]*"' | head -3
+```
+
+```
+href="/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css"
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website && DOCUSAURUS_URL=https://IndiasFernandes.github.io DOCUSAURUS_BASE_URL=/Innerflect-Operational-Intelligence-System/ npm run build 2>&1 | tail -20 && ls -la build/assets/css 2>/dev/null | head -5</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website && DOCUSAURUS_URL=https://IndiasFernandes.github.io DOCUSAURUS_BASE_URL=/Innerflect-Operational-Intelligence-System/ npm run build 2>&1 | tail -20 && ls -la build/assets/css 2>/dev/null | head -5
+```
+
+```
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/governance/naming-conventions:
+   -&gt; linking to ../../docs/system/taxonomy.md (resolved as: /Innerflect-Operational-Intelligence-System/docs/system/taxonomy.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/governance/prompt-usage-model:
+   -&gt; linking to ../../AGENTS.md (resolved as: /Innerflect-Operational-Intelligence-System/AGENTS.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/playbooks/:
+   -&gt; linking to ../../docs/playbooks/index.md (resolved as: /Innerflect-Operational-Intelligence-System/docs/playbooks/index.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/playbooks/development/cursor-start:
+   -&gt; linking to ../../../AGENTS.md (resolved as: /Innerflect-Operational-Intelligence-System/AGENTS.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/playbooks/development/docs-bootstrap:
+   -&gt; linking to ../../../docs/docusaurus-recommendation.md (resolved as: /Innerflect-Operational-Intelligence-System/docs/docusaurus-recommendation.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/playbooks/operations/:
+   -&gt; linking to ../00_governance/mission.md (resolved as: /Innerflect-Operational-Intelligence-System/ops/playbooks/00_governance/mission.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/skills/:
+   -&gt; linking to ../../AGENTS.md (resolved as: /Innerflect-Operational-Intelligence-System/AGENTS.md)
+- Broken link on source page path = /Innerflect-Operational-Intelligence-System/ops/subagents/:
+   -&gt; linking to ../../docs/system/repository-map.md (resolved as: /Innerflect-Operational-Intelligence-System/docs/system/repository-map.md)
+   -&gt; linking to ../../AGENTS.md (resolved as: /Innerflect-Operational-Intelligence-System/AGENTS.md)
+
+[SUCCESS] Generated static files in "build".
+[INFO] Use &#96;npm run serve&#96; command to test your build locally.
+total 144
+drwxr-xr-x@ 3 indiasfernandes  staff     96 Mar 28 17:31 .
+drwxr-xr-x@ 5 indiasfernandes  staff    160 Mar 28 17:31 ..
+-rw-r--r--@ 1 indiasfernandes  staff  70247 Mar 28 17:31 styles.df27d93e.css
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Fixing CSS asset paths**
+
+I'm adjusting the CSS asset paths to work correctly with GitHub Pages project site structure. I'm investigating why CSS assets return 404 on GitHub Pages by checking if the deploy-pages action correctly uploads the assets folder. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sI "https://indiasfernandes.github.io/assets/css/styles.df27d93e.css" | head -8</summary>
+
+```bash
+curl -sI "https://indiasfernandes.github.io/assets/css/styles.df27d93e.css" | head -8
+```
+
+```
+HTTP/2 404 
+server: GitHub.com
+content-type: text/html; charset=utf-8
+etag: "69c463e4-239b"
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'self'
+x-github-request-id: FCC2:A686:1F8565:215808:69C7A00F
+accept-ranges: bytes
+age: 0
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /tmp && rm -rf iof-pages-check && git clone --depth 1 --branch gh-pages https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git iof-pages-check 2>&1 && find iof-pages-check -maxdepth 3 -type f | head -40</summary>
+
+```bash
+cd /tmp && rm -rf iof-pages-check && git clone --depth 1 --branch gh-pages https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git iof-pages-check 2>&1 && find iof-pages-check -maxdepth 3 -type f | head -40
+```
+
+```
+Cloning into 'iof-pages-check'...
+iof-pages-check/index.html
+iof-pages-check/404.html
+iof-pages-check/docs/index.html
+iof-pages-check/docs/docusaurus-recommendation/index.html
+iof-pages-check/docs/archive/index.html
+iof-pages-check/docs/checklists/index.html
+iof-pages-check/docs/playbooks/index.html
+iof-pages-check/docs/system/index.html
+iof-pages-check/docs/getting-started/index.html
+iof-pages-check/docs/templates/index.html
+iof-pages-check/docs/sidebars-proposal/index.html
+iof-pages-check/docs/standards/index.html
+iof-pages-check/img/undraw_docusaurus_mountain.svg
+iof-pages-check/img/favicon.ico
+iof-pages-check/img/undraw_docusaurus_react.svg
+iof-pages-check/img/docusaurus-social-card.jpg
+iof-pages-check/img/docusaurus.png
+iof-pages-check/img/undraw_docusaurus_tree.svg
+iof-pages-check/img/logo.svg
+iof-pages-check/.nojekyll
+iof-pages-check/sitemap.xml
+iof-pages-check/ops/subagents/index.html
+iof-pages-check/ops/index.html
+iof-pages-check/ops/checklists/index.html
+iof-pages-check/ops/core-rules/index.html
+iof-pages-check/ops/playbooks/index.html
+iof-pages-check/ops/tags/index.html
+iof-pages-check/ops/mcp-guides/index.html
+iof-pages-check/ops/examples/index.html
+iof-pages-check/ops/governance/index.html
+iof-pages-check/ops/templates/index.html
+iof-pages-check/ops/skills/index.html
+iof-pages-check/.git/config
+iof-pages-check/.git/shallow
+iof-pages-check/.git/HEAD
+iof-pages-check/.git/info/exclude
+iof-pages-check/.git/logs/HEAD
+iof-pages-check/.git/description
+iof-pages-check/.git/hooks/commit-msg.sample
+iof-pages-check/.git/hooks/pre-rebase.sample
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: ls -la /tmp/iof-pages-check/assets 2>&1; ls /tmp/iof-pages-check/ | head -20</summary>
+
+```bash
+ls -la /tmp/iof-pages-check/assets 2>&1; ls /tmp/iof-pages-check/ | head -20
+```
+
+```
+total 0
+drwxr-xr-x@   5 indiasfernandes  wheel   160 Mar 28 17:32 .
+drwxr-xr-x@  11 indiasfernandes  wheel   352 Mar 28 17:32 ..
+drwxr-xr-x@   3 indiasfernandes  wheel    96 Mar 28 17:32 css
+drwxr-xr-x@   3 indiasfernandes  wheel    96 Mar 28 17:32 files
+drwxr-xr-x@ 139 indiasfernandes  wheel  4448 Mar 28 17:32 js
+404.html
+assets
+docs
+img
+index.html
+ops
+sitemap.xml
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Checking deployment source**
+
+I'm investigating whether GitHub Actions deployment is serving empty or broken assets while gh-pages branch has the full site. I'm verifying the gh-pages branch content via curl to confirm assets are present. 
+
+**Verifying asset paths**
+
+I confirmed the CSS 404 error and checked the expected gh-pages asset path. I discovered that HTML deployment works but Actions workflow is broken due to missing assets folder in artifacts, causing CSS 404 errors. 
+
+**Checking artifact upload**
+
+I'm investigating whether the assets folder is being properly included in the GitHub Actions artifact upload. </details></think>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: curl -sI "https://raw.githubusercontent.com/IndiasFernandes/Innerflect-Operational-Intelligence-System/gh-pages/assets/css/styles.df27d93e.css" | head -5</summary>
+
+```bash
+curl -sI "https://raw.githubusercontent.com/IndiasFernandes/Innerflect-Operational-Intelligence-System/gh-pages/assets/css/styles.df27d93e.css" | head -5
+```
+
+```
+HTTP/2 200 
+cache-control: max-age=300
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+content-type: text/plain; charset=utf-8
+etag: "6cec404168999b3eb17c229f1b9cf659a544dce261322defdf7643b15cb093e1"
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<think><details><summary>Thought Process</summary>
+**Checking github pages**
+
+GitHub Pages is serving from GitHub Actions artifact, not gh-pages branch, causing 404 errors for static assets. The live site is served from GitHub Actions artifact, not gh-pages branch, due to changes in the deployment workflow. 
+
+The artifact might be incomplete due to build process missing assets, possibly from .dockerignore or cache issues. The deploy-pages job succeeded but uploaded only partial files, likely due to an artifact upload bug or incorrect file structure. The issue might be that `actions/deploy-pages` requires a specific artifact name, causing the edge cache to serve stale HTML from an older response. I'm verifying that `upload-pages-artifact` creates the correct artifact name for `deploy-pages`. The artifact name looks correct, and the gh-pages branch appears to be intact with assets. 
+
+**Testing URL case sensitivity**
+
+I'm testing if GitHub Pages URL path is case-sensitive for the repo name. I'm investigating whether the GitHub Actions deployment skips asset generation due to caching issues. I'm checking if GitHub Pages deployment uses root path '/' instead of '/repo-name/', causing incorrect absolute paths in HTML. 
+
+**Checking router behavior**
+
+The router likely doesn't strip repo names, and GitHub Pages projects use baseUrl with trailing slash like `/my-project/`. The web server maps `https://user.github.io/my-project/` to the root, so `assets/foo` on disk becomes `https://user.github.io/my-project/assets/foo` in browser. 
+
+**Checking deployment**
+
+I'm investigating potential GitHub Pages deployment issues with asset paths and considering reverting to branch-based deployment. 
+
+**Verifying deployment**
+
+I'm cloning the repository to verify if GitHub Actions deployment is broken and whether it replaces assets correctly. I'm reevaluating the deployment strategy to determine if GitHub Actions or the gh-pages branch should handle site publishing. 
+
+I'm checking if the artifact upload path is incorrect for Windows vs Ubuntu environments. 
+
+**Checking asset paths**
+
+The HTML references `/assets/...` but GitHub Pages serves from `gh-pages` branch, so assets should be at `assets/css/...` relative to branch root. The Actions deployment may serve newer HTML but incomplete assets, while gh-pages has the full old site; need to verify which takes precedence based on Pages source setting. I'm verifying the CI build outputs complete assets by adding a step to list website/build/assets. 
+
+**Checking artifact upload**
+
+I'm adding an explicit list step to the workflow to debug why assets aren't appearing in the artifact upload. I'm leaning toward Option A with peaceiris for gh-pages, since the static HTML example doesn't use configure-pages and we want single source of truth. I'm switching back to peaceiris/actions-gh-pages since it's a known working solution. I'm reviewing the deployment timeline to understand when the site started appearing but lost its CSS. 
+
+**Comparing build structures**
+
+I'm comparing local build structure with CI-produced build to identify why the new artifact might be missing assets. 
+
+**Checking node versions**
+
+I'm checking if different Node versions between local and CI builds cause asset path differences. 
+
+**Verifying deploy setup**
+
+I'm verifying if `actions/configure-pages@v4` is needed as the first step in build jobs for project sites. 
+
+**Testing deploy setup**
+
+I'll test setting `baseUrl: '/'` with `trailingSlash` to resolve missing files issue. I'm reverting to peaceiris and will document that Pages must use gh-pages branch to avoid dual deployment confusion. I'm checking if upload-pages-artifact@v4 resolves the deployment issue. 
+
+I'm adjusting the GitHub Actions workflow to use `peaceiris` for deployment. 
+
+**Adjusting deployment workflow**
+
+I'm switching the deployment workflow to use peaceiris and adding a comment about gh-pages branch for Pages source. I'm updating the workflow to use peaceiris/actions-gh-pages@v4 with publish_dir and github_token, removing the artifact upload and deploy steps. 
+
+**Verifying gh-pages deployment**
+
+I'm confirming whether peaceiris deployment includes assets by checking the gh-pages branch. 
+
+**Confirming gh-pages deployment**
+
+I confirmed that assets exist in the gh-pages branch. 
+
+**Implementing workflow**
+
+I'm implementing the peaceiris workflow for documentation deployment. I'm configuring the deployment workflow with Saurus URL and Docusaurus base URL settings. </details></think>
+
+_**Agent (composer-2)**_
+
+Identifying the issue: the `gh-pages` branch contains full `assets/` (verified by cloning). GitHub Pages is likely set to "GitHub Actions", so the site is served from the Actions artifact — which appears incomplete — while the complete site remains on `gh-pages`. Reverting deployment to `peaceiris/actions-gh-pages` (updates `gh-pages` with the full build) and documenting that Pages must use the `gh-pages` branch.
+
+
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.github/workflows/deploy-docs.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/.github/workflows/deploy-docs.yml</summary>
+
+</details>
+
+</tool-use>
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2"><details>
+<summary>Tool use: **edit_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git add .github/workflows/deploy-docs.yml && git commit --trailer "Made-with: Cursor" -m "ci: restore gh-pages branch deploy (fixes missing CSS with branch Pages source)" && git push origin main</summary>
+
+```bash
+cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System && git add .github/workflows/deploy-docs.yml && git commit --trailer "Made-with: Cursor" -m "ci: restore gh-pages branch deploy (fixes missing CSS with branch Pages source)" && git push origin main
+```
+
+```
+[main 952c03a] ci: restore gh-pages branch deploy (fixes missing CSS with branch Pages source)
+ 1 file changed, 16 insertions(+), 20 deletions(-)
+To https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System.git
+   7521031..952c03a  main -&gt; main
+
+```
+</details>
+</tool-use>
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2"><details>
+<summary>Tool use: **run_terminal_command_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (composer-2)**_
+
+Here is what was going wrong and what we changed.
+
+## Cause
+
+Your **HTML** was built with the right `baseUrl` (`/Innerflect-Operational-Intelligence-System/...`), so links look like `/Innerflect-Operational-Intelligence-System/assets/css/styles....css`.
+
+Two different things can publish GitHub Pages:
+
+1. **Deploy from the `gh-pages` branch** — your `gh-pages` branch **does** contain `assets/` and `img/` (this was verified by cloning that branch).
+2. **GitHub Actions** (`actions/deploy-pages`) — GitHub serves **only** the artifact from that action, **not** the `gh-pages` branch.
+
+If **Pages → Source** is set to **GitHub Actions**, the live site comes from that artifact. In your case that deployment did not line up with a full static tree (so you got HTML but **404** on `/Innerflect-Operational-Intelligence-System/assets/...`). The complete files were still on `gh-pages`, but they were not what Pages was using.
+
+## Fix (in the repo)
+
+The workflow was switched back to **`peaceiris/actions-gh-pages`**, which updates the **`gh-pages`** branch with the full `website/build` (including `assets/`). A small check was added so the job fails if `build/assets/css` or `build/assets/js` is missing.
+
+**You need to point Pages at the branch:**
+
+1. Open **[Repository → Settings → Pages](https://github.com/IndiasFernandes/Innerflect-Operational-Intelligence-System/settings/pages)**.
+2. **Build and deployment → Source:** choose **Deploy from a branch** (not “GitHub Actions”).
+3. **Branch:** `gh-pages`, **Folder:** `/ (root)`.
+4. Save, wait for the latest **Deploy documentation** workflow to finish (triggered by the push to `main`), then hard-refresh the site.
+
+After that, this URL pattern should return **200** (not 404):
+
+`https://indiasfernandes.github.io/Innerflect-Operational-Intelligence-System/assets/css/styles.df27d93e.css`
+
+**Summary:** Use **branch `gh-pages`** as the Pages source so the full Docusaurus output (including CSS/JS) is what GitHub serves. The push `952c03a` is on `main`; finish by setting Pages as above if it still shows “GitHub Actions.”

@@ -19,9 +19,9 @@ Playbooks are **repeatable operating procedures**. Each file includes execution 
 | Sales | [sales/README.md](sales/README.md) | Pipeline motion and communication |
 | Operations | [operations/README.md](operations/README.md) | Rhythm, decisions, process, knowledge |
 
-## Docs hub (navigation)
+## Docs layer (navigation)
 
-For table-style browsing from the docs layer: [docs/playbooks](../../docs/playbooks/index.md).
+The static site lists **product vision** and **repository** routes under [`docs/`](../../docs/index.md). Playbook pages on the site are limited to the `include` list in `website/docusaurus.config.ts`; browse categories here on GitHub or in your editor.
 
 ## Creating or changing playbooks
 

@@ -10,11 +10,11 @@ doc_status: stable
 
 **Docs-as-code** practice is to treat documentation like source: keep it in-repo, review it in PRs, and **ship navigation updates in the same change** as the content they describe (co-location, single PR). That reduces drift between “what exists in `ops/`” and “what humans can find in `docs/` or on the static site.” Industry guidance consistently stresses **atomic doc + code (or doc + index) changes**, **automated link/build checks**, and **explicit contribution checklists**—not ad-hoc updates after the fact.
 
-This repository adds one layer: **Docusaurus** loads two doc plugins (`docs/` → `/docs/`, `ops/` → `/ops/`). Hub pages under `docs/` must use **site routes** when linking to rendered playbook pages, or the HTML site will not navigate correctly.
+This repository adds one layer: **Docusaurus** loads two doc plugins (`docs/` → `/docs/`, `ops/` → `/ops/`). The **`ops/` plugin uses an `include` glob** in `website/docusaurus.config.ts` — only matching files get `/ops/...` URLs. Hub pages under `docs/` must use **site routes** when linking to rendered playbook pages, or the HTML site will not navigate correctly.
 
 ## Non-negotiables
 
-1. **Same change set** — Adding or renaming canonical content under `ops/` (playbook, template, checklist, governance file) **includes** updates to every index that lists it: category `README.md`, matching `docs/**/index.md` hub, and [Repository map](/docs/system/repository-map) when top-level layout changes.
+1. **Same change set** — Adding or renaming canonical content under `ops/` (playbook, template, checklist, governance file) **includes** updates to every index that lists it: category `README.md`, relevant `docs/**` pages (for example [Repository map](/docs/system/repository-map) or [Operational assets](/docs/repo/operational-assets)), and **`website/docusaurus.config.ts` / `sidebarsOps.ts`** when a playbook should appear on the static site.
 2. **No orphan indexes** — If a file appears in a hub table, it must exist; if it is removed or renamed, **every** hub row and sidebar-relevant link is updated in the same PR.
 3. **Verify the site when navigation changes** — After hub or link changes that affect browsing, run `npm run build` from the `website/` directory at repo root and fix **new** errors tied to your edits (see [Verification](#verification)).
 
@@ -22,7 +22,7 @@ This repository adds one layer: **Docusaurus** loads two doc plugins (`docs/` �
 
 | You change… | Update also… |
 |-------------|----------------|
-| New playbook under `ops/02_playbooks/<category>/` | Category `README.md` (“How to choose” + file list); `docs/playbooks/<category>/index.md` (table row with `/ops/...` permalink per [Docusaurus](#docusaurus-two-plugins)); follow [Adding a playbook](adding-a-playbook.md) |
+| New playbook under `ops/02_playbooks/<category>/` | Category `README.md` (“How to choose” + file list); [Repository map](/docs/system/repository-map) if tree changes; add the file to the `ops` plugin **`include`** and `sidebarsOps.ts` if it should appear on the site; follow [Adding a playbook](adding-a-playbook.md) |
 | Rename/move playbook | All inbound links (search repo); hub tables; related docs |
 | New template / checklist / major `ops/` area | Relevant `docs/` hub; [Repository map](/docs/system/repository-map) if tree changes |
 | `docs/` hub only (wording) | [Docs quality review](../04_checklists/docs-quality-review.md) |
@@ -31,10 +31,10 @@ This repository adds one layer: **Docusaurus** loads two doc plugins (`docs/` �
 
 | Plugin | Source path | Base URL | Example |
 |--------|-------------|----------|---------|
-| Primary | `docs/` | `/docs/` | `/docs/playbooks/development/` |
-| Secondary (`id: ops`) | `ops/` | `/ops/` | `/ops/playbooks/development/deployment-pipeline-prompts` |
+| Primary | `docs/` | `/docs/` | `/docs/vision/` |
+| Secondary (`id: ops`) | `ops/` (see `include` in config) | `/ops/` | `/ops/playbooks/development/deployment-pipeline-prompts` |
 
-Playbooks are **canonical** in `ops/` but are browsable under **`/ops/...`** in the built site. The **Ops** navbar entry opens that tree.
+Playbooks are **canonical** in `ops/` on GitHub. **Only included files** are browsable under **`/ops/...`** on the built site. The **Playbooks** navbar entry lists included docs.
 
 ### Links from `docs/` hubs to `ops/` playbooks (HTML)
 

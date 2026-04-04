@@ -11,10 +11,10 @@ doc_status: stable
 
 Use **relative** paths so the repository works on GitHub, in editors, and in static site generators that preserve paths.
 
-Examples from `docs/playbooks/development/index.md` to ops:
+Examples from `docs/repo/index.md` to ops:
 
 ```markdown
-[Development playbooks (canonical)](../../../ops/02_playbooks/development/README.md)
+[Development playbooks (canonical)](../../ops/02_playbooks/development/README.md)
 ```
 
 Examples from `ops/02_playbooks/development/project-setup.md` to templates:
@@ -47,10 +47,10 @@ The build uses **two** doc plugins: `docs/` → `/docs/`, and `ops/` → `/ops/`
 - **GitHub / editor:** relative `.md` links between `docs/` and `ops/` stay valid for browsing the repo.
 - **HTML site users:** `docs/` **hub tables** that should open a rendered playbook must link with **root-absolute paths** to the ops plugin, e.g. `[Title](/ops/playbooks/development/project-intake)` — not `../../../ops/02_playbooks/.../file.md` — or clicks from `/docs/` will not land on the correct `/ops/` page.
 
-Full rules and verification: [Docs and site sync](../../ops/00_governance/docs-and-site-sync.md).
+Full rules and verification: [Docs and site sync (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/00_governance/docs-and-site-sync.md).
 
 ## Related documents
 
 - [Repository map](repository-map.md)
-- [Docs and site sync](../../ops/00_governance/docs-and-site-sync.md)
-- [Documentation standards](../standards/documentation-standards.md)
+- [Docs and site sync (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/00_governance/docs-and-site-sync.md)
+- [Documentation standards — core rules (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/01_core-rules/documentation-standards.md)

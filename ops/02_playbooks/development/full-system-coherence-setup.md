@@ -31,8 +31,8 @@ Do not use when: the goal is a small localized fix with no repo-wide coherence w
 
 ## Step-by-step execution logic
 
-1. Confirm fit using [the category README](./README.md).
-2. Confirm you want the **`[COH · Context7]`** bundle (see [Cursor prompt bundles](./README.md#cursor-prompt-bundles-sidebar-ids) in the category README).
+1. Confirm fit using [the category README on GitHub](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/README.md).
+2. Confirm you want the **`[COH · Context7]`** bundle (see [Cursor prompt bundles](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/README.md#cursor-prompt-bundles-sidebar-ids) in the category README).
 3. Run the **Cursor prompt** below; append session-specific repo paths, constraints, and stakeholders at the end.
 4. Save outputs using templates under `../../03_templates/` or your project’s doc system; promote stable rules into `.cursor/` only after review.
 5. Complete **Quality checks**; track follow-ups from **Critical questions**.
@@ -293,7 +293,7 @@ file referencing
 
 ## Related documents
 
-- [Category README](./README.md)
-- [Deployment pipeline prompts](./deployment-pipeline-prompts.md) (multi-prompt deployment sequence)
-- [Prompt usage model](../../00_governance/prompt-usage-model.md)
-- [Repository bootstrap](./repo-bootstrap.md)
+- [Category README (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/README.md)
+- [Deployment pipeline prompts](/ops/playbooks/development/deployment-pipeline-prompts) (multi-prompt deployment sequence)
+- [Prompt usage model (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/00_governance/prompt-usage-model.md)
+- [Repository bootstrap (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/repo-bootstrap.md)

@@ -39,9 +39,9 @@ Playbooks live under `ops/02_playbooks/<category>/`. Each category maps to an op
 
 ## Status and review
 
-Substantive pages use frontmatter `doc_status: draft | stable` and optional `last_reviewed: YYYY-MM-DD`. Governance defines review cadence in [Versioning and changelog](../../ops/00_governance/versioning-and-changelog.md).
+Substantive pages use frontmatter `doc_status: draft | stable` and optional `last_reviewed: YYYY-MM-DD`. Governance defines review cadence in [Versioning and changelog (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/00_governance/versioning-and-changelog.md).
 
 ## Related documents
 
-- [Naming conventions](../../ops/00_governance/naming-conventions.md)
+- [Naming conventions (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/00_governance/naming-conventions.md)
 - [Repository map](repository-map.md)

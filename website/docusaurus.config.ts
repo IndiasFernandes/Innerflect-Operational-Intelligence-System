@@ -8,7 +8,8 @@ const baseUrl = process.env.DOCUSAURUS_BASE_URL ?? '/';
 
 const config: Config = {
   title: 'Innerflect Ops',
-  tagline: 'Operational intelligence — documentation and canonical playbooks',
+  tagline:
+    'Outcome orchestration for independent talent — and the operating blueprint for how Innerflect documents, ships, and runs work.',
   favicon: 'img/logo.svg',
 
   future: {
@@ -23,9 +24,12 @@ const config: Config = {
 
   onBrokenLinks: 'warn',
 
+  themes: ['@docusaurus/theme-mermaid'],
+
   // CommonMark for all `.md` avoids MDX interpreting `{placeholders}` in ops templates. Use `.mdx` for MDX.
   markdown: {
     format: 'md',
+    mermaid: true,
     hooks: {
       onBrokenMarkdownLinks: 'warn',
     },
@@ -61,7 +65,11 @@ const config: Config = {
         path: '../ops',
         routeBasePath: 'ops',
         sidebarPath: './sidebarsOps.ts',
-        exclude: ['**/09_archive/**'],
+        // Site exposes only the two canonical development playbooks; full tree remains in-repo on GitHub.
+        include: [
+          '02_playbooks/development/deployment-pipeline-prompts.md',
+          '02_playbooks/development/full-system-coherence-setup.md',
+        ],
       },
     ],
   ],
@@ -81,11 +89,29 @@ const config: Config = {
           label: 'Docs',
         },
         {
+          type: 'doc',
+          docId: 'vision/index',
+          position: 'left',
+          label: 'Product vision',
+        },
+        {
+          type: 'doc',
+          docId: 'repo/index',
+          position: 'left',
+          label: 'Repository',
+        },
+        {
+          type: 'doc',
+          docId: 'by-role/index',
+          position: 'left',
+          label: 'By role',
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'opsSidebar',
           docsPluginId: 'ops',
           position: 'left',
-          label: 'Ops',
+          label: 'Playbooks',
         },
       ],
     },
@@ -100,17 +126,42 @@ const config: Config = {
               to: '/docs/',
             },
             {
-              label: 'Getting started',
-              to: '/docs/getting-started/',
+              label: 'Product vision',
+              to: '/docs/vision/',
+            },
+            {
+              label: 'Repository',
+              to: '/docs/repo/',
+            },
+            {
+              label: 'By role',
+              to: '/docs/by-role/',
+            },
+            {
+              label: 'System reference',
+              to: '/docs/system/',
             },
           ],
         },
         {
-          title: 'Canonical',
+          title: 'Canonical playbooks',
           items: [
             {
-              label: 'Ops (canonical)',
-              to: '/ops/',
+              label: 'Deployment pipeline (5-step)',
+              to: '/ops/playbooks/development/deployment-pipeline-prompts',
+            },
+            {
+              label: 'Full system coherence (Context7)',
+              to: '/ops/playbooks/development/full-system-coherence-setup',
+            },
+          ],
+        },
+        {
+          title: 'Repository',
+          items: [
+            {
+              label: 'GitHub',
+              href: 'https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System',
             },
           ],
         },
@@ -120,6 +171,9 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    mermaid: {
+      theme: {light: 'neutral', dark: 'dark'},
     },
   } satisfies Preset.ThemeConfig,
 };

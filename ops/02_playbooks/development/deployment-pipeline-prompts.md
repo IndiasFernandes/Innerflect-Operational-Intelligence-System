@@ -30,7 +30,7 @@ Do not use when: deployment is already fully standardized and these prompts woul
 
 ## Step-by-step execution logic
 
-1. Confirm fit using [the category README](./README.md).
+1. Confirm fit using [the category README on GitHub](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/README.md).
 2. Run **Cursor prompt 1**; keep the audit output for the next steps.
 3. Run **Cursor prompt 2**; answer only what is still unknown.
 4. Run **Cursor prompt 3** to generate the deployment system; review diffs carefully before merge.
@@ -485,6 +485,6 @@ Use these 5 as the main system.
 
 ## Related documents
 
-- [Category README](./README.md)
-- [Prompt usage model](../../00_governance/prompt-usage-model.md)
-- [Pre-release check](./pre-release-check.md)
+- [Category README (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/README.md)
+- [Prompt usage model (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/00_governance/prompt-usage-model.md)
+- [Pre-release check (GitHub)](https://github.com/indiasfernandes/Innerflect_Operational_Intelligence_System/blob/main/ops/02_playbooks/development/pre-release-check.md)

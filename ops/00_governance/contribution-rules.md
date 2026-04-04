@@ -15,7 +15,7 @@ doc_status: stable
 
 - **One logical change** per PR when possible (easier to review and revert).
 - **Docs and site sync**: follow [Docs and site sync](docs-and-site-sync.md)—canonical changes under `ops/` ship with updated hubs, and Docusaurus navigation is verified when links or indexes change.
-- Update **hubs**: category `README.md`, matching `docs/playbooks/.../index.md`, and [Repository map](../../docs/system/repository-map.md) if structure changed.
+- Update **hubs**: category `README.md`, [Repository map](../../docs/system/repository-map.md) (and [Operational assets](../../docs/repo/operational-assets.md) if site `include` changes), and `website/docusaurus.config.ts` / `sidebarsOps.ts` when a playbook should appear on the static site.
 - Run or self-apply [Docs quality review](../04_checklists/docs-quality-review.md) and [Prompt quality review](../04_checklists/prompt-quality-review.md) when applicable.
 
 ## Style

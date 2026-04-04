@@ -17,16 +17,23 @@ Engineering, marketing, brand, sales, project management, and operations. The ta
 
 | Path | Role |
 |------|------|
-| **`docs/`** | Documentation layer: onboarding, system reference, standards for docs, hubs linking into `ops/` |
+| **`docs/`** | Documentation layer: [product vision](docs/vision/index.md), [repository guide](docs/repo/index.md), system reference |
 | **`ops/`** | Canonical operations: governance, core rules, playbooks, templates, checklists, examples, future skills/MCP/subagents |
 | **`AGENTS.md`** | Default behavior for AI tools working in this repository |
 | **`README.md`** | You are here |
 
+## Documentation site
+
+The Docusaurus app in **`website/`** builds:
+
+- **`/docs/...`** from `docs/` (see sidebar in `website/sidebars.ts`).
+- **`/ops/...`** for a **small include list** only (today: two development playbooks). See [Operational assets](docs/repo/operational-assets.md). Everything else in `ops/` is GitHub-first.
+
 ## How to use it
 
-1. Open **[`docs/getting-started/how-to-use-this-repo.md`](docs/getting-started/how-to-use-this-repo.md)** for workflows.
-2. Pick a **function** (development, marketing, branding, project management, sales, operations).
-3. Go to the matching **playbook hub** in [`docs/playbooks/`](docs/playbooks/index.md)—then open the **canonical** playbook under [`ops/02_playbooks/`](ops/02_playbooks/).
+1. Read **[`docs/repo/index.md`](docs/repo/index.md)** for how the site relates to the repo.
+2. For **market and product narrative**, open **[`docs/vision/index.md`](docs/vision/index.md)**.
+3. Pick a **function** under `ops/02_playbooks/<category>/` and open the **canonical** `.md` file on GitHub or in your editor.
 4. Run the **Cursor prompt** block inside the playbook; save outputs using a template from [`ops/03_templates/`](ops/03_templates/).
 5. Gate quality with checklists in [`ops/04_checklists/`](ops/04_checklists/) when appropriate.
 
@@ -39,16 +46,16 @@ Engineering, marketing, brand, sales, project management, and operations. The ta
 
 - Read [`ops/00_governance/contribution-rules.md`](ops/00_governance/contribution-rules.md)
 - New playbooks must follow [`ops/03_templates/playbook-template.md`](ops/03_templates/playbook-template.md)
-- Update hubs and [`docs/system/repository-map.md`](docs/system/repository-map.md) when structure changes
+- Update [`docs/system/repository-map.md`](docs/system/repository-map.md) and site config when structure or published playbooks change
 
 ## Where to start first
 
 | If you… | Start here |
 |---------|------------|
-| Are new to the repo | [`docs/getting-started/index.md`](docs/getting-started/index.md) |
-| Need a procedure | [`docs/playbooks/index.md`](docs/playbooks/index.md) |
+| Are new to the repo | [`docs/repo/index.md`](docs/repo/index.md) |
+| Need a procedure | `ops/02_playbooks/<category>/` on GitHub |
 | Use Cursor or other AI tools | [`AGENTS.md`](AGENTS.md) |
-| Will publish a docs site later | [`docs/docusaurus-recommendation.md`](docs/docusaurus-recommendation.md) |
+| Run the docs site locally | `cd website && npm install && npm run start` |
 
 ## License and confidentiality
 

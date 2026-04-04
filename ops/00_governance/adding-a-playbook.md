@@ -23,9 +23,10 @@ Add a playbook when the same procedure will be run **more than once** by more th
 5. **Link related documents**: templates, checklists, core rules.
 6. **Update indexes in the same PR** (see [Docs and site sync](docs-and-site-sync.md)):
    - Category `README.md` (file list + “how to choose” if needed)
-   - Matching `docs/playbooks/<category>/index.md` row — use **`/ops/playbooks/<category>/<slug>`** links in the hub table so the Docusaurus HTML site navigates correctly
-   - Run `npm run build` in `website/` if you changed hubs or links
-7. **Self-review** with [Prompt quality review](../04_checklists/prompt-quality-review.md) and [Docs quality review](../04_checklists/docs-quality-review.md) when the playbook is user-facing in hubs.
+   - [Repository map](../../docs/system/repository-map.md) if the tree or navigation story changes
+   - If the playbook should appear on the **static site**, add its path to the `ops` plugin **`include`** in `website/docusaurus.config.ts` and its doc id to `website/sidebarsOps.ts` — use **`/ops/playbooks/<category>/<slug>`** for links from `docs/`
+   - Run `npm run build` in `website/` if you changed hubs, links, or site config
+7. **Self-review** with [Prompt quality review](../04_checklists/prompt-quality-review.md) and [Docs quality review](../04_checklists/docs-quality-review.md) when the playbook is listed in indexes or on the site.
 
 ## Naming
 

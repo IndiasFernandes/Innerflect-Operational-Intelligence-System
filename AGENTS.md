@@ -20,7 +20,7 @@ When operating on this repository (Cursor, CI bots, or other assistants), follow
 ## Maintain docs when the system changes
 
 - If you move, rename, or add top-level areas, update **`docs/system/repository-map.md`** and affected **`README.md` / `index.md` hubs** in the same change set.
-- For new or renamed **playbooks** (and similar canonical `ops/` assets), update **category README + matching `docs/playbooks/.../index.md`** in the same PR. Use **`/ops/...`** paths in hub tables so the Docusaurus HTML site links work. Follow **`ops/00_governance/docs-and-site-sync.md`** and run **`npm run build`** in **`website/`** when navigation or links change.
+- For new or renamed **playbooks** (and similar canonical `ops/` assets), update **category README** under `ops/02_playbooks/<category>/`, **`docs/system/repository-map.md`** when the tree changes, and—if the playbook should appear on the static site—**`website/docusaurus.config.ts`** (`include` for the `ops` plugin) and **`website/sidebarsOps.ts`**. Use **`/ops/...`** paths in hub tables for rendered pages. Follow **`ops/00_governance/docs-and-site-sync.md`** and run **`npm run build`** in **`website/`** when navigation or links change.
 
 ## Templates and structure
 

@@ -6878,7 +6878,6 @@ Let me search online and read their current files.
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
 Searching for documentation-maintenance best practices and reviewing your governance so we can add clear, repo-specific rules.
 
 
@@ -6969,13 +6968,6 @@ Let me read contribution-rules, documentation-standards in docs, and inner-linki
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/00_governance/contribution-rules.md</summary>
 
@@ -7060,13 +7052,6 @@ Let me also check docs/getting-started/how-to-use-this-repo.md for a link to the
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/getting-started/how-to-use-this-repo.md</summary>
 
@@ -7122,13 +7107,6 @@ Read repository-map for website section
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/system/repository-map.md</summary>
 
@@ -7181,13 +7159,6 @@ Let me read ops/00_governance/README if exists
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="search" data-tool-name="glob_file_search">
 <details>
 <summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
@@ -7215,13 +7186,6 @@ Read governance README to add link to new doc
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/00_governance/README.md</summary>
 
@@ -7245,7 +7209,6 @@ Implement all files
 </details></think>
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 
 Implementing governance: docs-as-code practice keeps docs and indexes in the same change set; Docusaurus needs explicit cross-plugin URLs. Adding `docs-and-site-sync.md` and updating related files.
 
@@ -7287,13 +7250,6 @@ Wait docs-and-site-sync is in ops/00_governance/ so link to docs is ../../docs/s
 
 StrReplace the broken table cell
 </details></think>
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
-
-
-
-
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
@@ -7410,13 +7366,6 @@ repository-map: add website row under root or new section
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2">
 
 <details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/system/inner-linking-conventions.md</summary>
@@ -7501,13 +7450,6 @@ StrReplace
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="write" data-tool-name="edit_file_v2">
 
 <details><summary>Tool use: **edit_file_v2** • Edit file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/system/repository-map.md</summary>
@@ -7569,13 +7511,6 @@ Optional: docs/index.md or docs/system/taxonomy - link - skip unless needed
 
 contribution-rules "Related documents" add link
 </details></think>
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
-
-
-
-
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
@@ -7678,7 +7613,6 @@ Read docs-and-site-sync and fix external-ish links
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
 Fixing links in `docs-and-site-sync.md` to use `/docs/...` routes so Docusaurus stops flagging them from the ops plugin.
 
 
@@ -7720,13 +7654,6 @@ Actually Docusaurus might resolve /docs/system/repository-map - need trailing sl
 
 Let me apply replacements
 </details></think>
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
-
-
-
-
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
@@ -7799,13 +7726,6 @@ Run build again and grep for docs-and-site-sync broken links
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
 <details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website && npm run build 2>&1 | grep -A2 "docs-and-site-sync" || true</summary>
 
@@ -7829,13 +7749,6 @@ Wait for build output
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/.cursor/projects/Users-indiasfernandes-Innerflect-Operational-Intelligence-System/terminals/940180.txt</summary>
 
@@ -7853,13 +7766,6 @@ _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
 Still running - wait more
 </details></think>
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
-
-
-
-
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
@@ -7883,13 +7789,6 @@ Still running 35s - read again
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
-
-
-
-
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
 <tool-use data-tool-type="read" data-tool-name="read_file_v2">
 <details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/.cursor/projects/Users-indiasfernandes-Innerflect-Operational-Intelligence-System/terminals/940180.txt</summary>
 
@@ -7907,13 +7806,6 @@ _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
 The grep might have no output - build might still be running. Let me wait and read end of file
 </details></think>
-
-_**Agent (claude-4.6-sonnet-medium-thinking)**_
-
-
-
-
-
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
@@ -7942,8 +7834,6 @@ Provide summary for user with:
 </details></think>
 
 _**Agent (claude-4.6-sonnet-medium-thinking)**_
-
-
 
 ## What works well (and maps to this repo)
 
@@ -8071,5 +7961,487 @@ _**Agent (claude-4.6-sonnet-medium-thinking)**_
 
 <tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
 <summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **5** results in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/src** (5 files)
+
+| File |
+|------|
+| `components/HomepageFeatures/index.tsx` |
+| `pages/index.tsx` |
+| `components/HomepageFeatures/styles.module.css` |
+| `css/custom.css` |
+| `pages/index.module.css` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/AGENTS.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/website/src/css/custom.css</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/03_templates/playbook-template.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<think><details><summary>Thought Process</summary>
+Now I have a good picture. Let me ask the user the critical questions:
+
+1. The user mentioned "here is another prompt that is really important" but never pasted it. I need to ask them for it.
+2. They want author attribution when adding prompts - should this be a frontmatter field (`author`) or something in AGENTS.md rules?
+3. The sidebar improvement - they want more readable sections. Currently both sidebars are `autogenerated`. For the Ops sidebar, the sections come from folder names like `00_governance`, `02_playbooks`, etc. These could be improved with `_category_.json` files. But I should ask what level of change they want.
+
+
+4. For the "manually added" identifier - do they want a frontmatter field (`origin: manual`) with a visual CSS badge, or just a simple label in the page?
+5. For the "who did the changes" rule - do they want Cursor to ask interactively when making edits?
+
+The most pressing issue is that missing prompt they referenced - I can't plan anything without seeing it. After that, I need clarity on whether they want these metadata fields (author, origin) as frontmatter or just visual indicators on the page.</details></think>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+I have enough context. Two quick questions before I can write the full plan.
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+An unknown error occurred
+
+<tool-use data-tool-type="unknown" data-tool-name="ask_question"><details>
+<summary>Tool use: **ask_question**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="ask_question">
+<details>
+<summary>Tool use: **ask_question**</summary>
+
+
+Parameters:
+
+```json
+{
+  "questions": [
+    {
+      "id": "missing_prompt",
+      "options": [
+        {
+          "id": "will_paste",
+          "label": "I will paste it in my next message"
+        },
+        {
+          "id": "skip_for_now",
+          "label": "Skip that prompt for now — plan everything else first"
+        }
+      ],
+      "prompt": "You mentioned 'another prompt that is really important' but it was not included in your message. Please paste it so we can plan exactly where it lives and how to add it."
+    },
+    {
+      "id": "author_approach",
+      "options": [
+        {
+          "id": "frontmatter",
+          "label": "Frontmatter fields (author, last_edited_by, last_edited_date) visible on the page and required by AGENTS.md rule"
+        },
+        {
+          "id": "agents_rule_only",
+          "label": "AGENTS.md rule only — Cursor asks, author writes it in a comment or footer inside the file"
+        },
+        {
+          "id": "both",
+          "label": "Both: frontmatter fields AND an AGENTS.md rule that prompts for them"
+        }
+      ],
+      "prompt": "For 'who made the change' attribution, which approach do you want?"
+    }
+  ]
+}
+```
+Additional data:
+
+```json
+{
+  "currentSelections": {
+    "author_approach": [
+      "__freeform_other__"
+    ],
+    "missing_prompt": [
+      "__freeform_other__"
+    ]
+  },
+  "freeformTexts": {
+    "author_approach": "Say that Indias changed it as of date of today, in the page, eacy",
+    "missing_prompt": "\"You are a senior system architect.\n\nYour goal is to analyze this entire codebase/website and design a COMPLETE Cursor coherence system using:\n\n- Rules (.cursor/rules)\n- Skills (.cursor/skills)\n- Hooks (.cursor/hooks)\n- Subagents\n- (Optional) AGENTS.md\n\n⚠️ CRITICAL PRINCIPLES\n- DO NOT assume anything → scan real code\n- Prefer minimal tokens, maximum clarity\n- Reference files instead of rewriting them\n- Separate facts vs assumptions\n- Use Context7-style structured reasoning\n\n---\n\n## STEP 1 — SYSTEM SCAN (MANDATORY)\n\nScan the codebase and report ONLY verified facts:\n\n1. Tech stack (frontend, backend, infra)\n2. Folder structure (high-level)\n3. Core systems detected:\n   - Auth\n   - Payments\n   - Database\n   - APIs\n   - State management\n   - Audio / media / special systems (if any)\n4. Key flows (detected from routes/components):\n   - onboarding\n   - main user journey\n   - data creation/storage\n5. External services (Supabase, Stripe, etc.)\n6. Existing docs (md files, schemas, configs)\n\nOutput format:\n\n### VERIFIED SYSTEM MAP\n- Stack:\n- Structure:\n- Core Systems:\n- Key Flows:\n- Integrations:\n- Existing Docs:\n\n---\n\n## STEP 2 — GAP \u0026 RISK ANALYSIS\n\nIdentify:\n\n- Missing structure (no clear flows, no schema, etc.)\n- Risk areas (inconsistency, unclear logic, duplication)\n- Areas that require strict rules\n\nOutput:\n\n### RISKS / GAPS\n- ❌ Missing:\n- ⚠️ Risk:\n- 🔧 Needs structure:\n\n---\n\n## STEP 3 — GENERATE CURSOR RULES\n\nCreate a minimal but powerful set of rules:\n\n- Max 5–7 rules files\n- Each rule must be SHORT and actionable\n- Reference real files instead of duplicating\n\nInclude:\n\n1. Project Map Rule\n2. Coding / Architecture Standards\n3. Workflow Rule (scan → plan → implement → verify → doc sync)\n4. Doc Sync Rule (SYSTEM_SPECS / AUDIT / DB_SCHEMA)\n5. Safety Rule (no hallucination)\n6. (Optional) Domain-specific rule (if needed)\n\nOutput:\n\n### RULES STRUCTURE\nFor each:\n- filename\n- purpose\n- content (concise)\n\n---\n\n## STEP 4 — GENERATE SKILLS (HIGH VALUE ONLY)\n\nCreate reusable skills for THIS project.\n\nConstraints:\n- Max 6–8 skills\n- Only high-impact workflows\n- Each skill = procedural, not conceptual\n\nEach skill must include:\n\n- name\n- when to use\n- steps (scan → verify → output)\n- output format\n- anti-hallucination rule\n\nExamples:\n- auth audit\n- db schema mapping\n- api route scan\n- payment flow audit\n- frontend flow trace\n- cursor prompt generator\n\nOutput:\n\n### SKILLS\n\n---\n\n## STEP 5 — DEFINE HOOKS (ENFORCEMENT)\n\nDesign minimal hooks that enforce coherence:\n\nFocus on:\n- after edit validation\n- schema / API change detection\n- doc sync enforcement\n\nOutput:\n\n### HOOKS\n- name\n- trigger (before/after edit)\n- logic (simple, practical)\n\n---\n\n## STEP 6 — DEFINE SUBAGENTS\n\nSplit responsibilities:\n\n- Architect (scan + structure)\n- Implementer (code changes)\n- Auditor (verification)\n- Doc Sync (update docs)\n\nOutput:\n\n### SUBAGENTS\n- name\n- responsibility\n- when invoked\n\n---\n\n## STEP 7 — AGENTS.md (OPTIONAL)\n\nIf useful, generate a short AGENTS.md that:\n\n- explains how to operate in this repo\n- references rules and skills\n- defines workflow in \u003c15 lines\n\n---\n\n## STEP 8 — CRITICAL QUESTIONS\n\nAsk ONLY high-leverage questions needed to improve the system.\n\nMax 5–8 questions.\n\nFocus on:\n- unclear architecture decisions\n- missing integrations\n- product logic ambiguity\n- scaling constraints\n\nOutput:\n\n### QUESTIONS\n\n---\n\n## STEP 9 — FINAL OUTPUT FORMAT\n\nKeep everything structured, concise, and readable.\n\nDO NOT:\n- write long explanations\n- repeat information\n- speculate without evidence\n\nPRIORITY:\nClarity \u003e completeness \u003e verbosity\n\n---\n\nProceed.\""
+  },
+  "status": "submitted"
+}
+```
+Result:
+
+```json
+{
+  "answers": [
+    {
+      "freeformText": "\"You are a senior system architect.\n\nYour goal is to analyze this entire codebase/website and design a COMPLETE Cursor coherence system using:\n\n- Rules (.cursor/rules)\n- Skills (.cursor/skills)\n- Hooks (.cursor/hooks)\n- Subagents\n- (Optional) AGENTS.md\n\n⚠️ CRITICAL PRINCIPLES\n- DO NOT assume anything → scan real code\n- Prefer minimal tokens, maximum clarity\n- Reference files instead of rewriting them\n- Separate facts vs assumptions\n- Use Context7-style structured reasoning\n\n---\n\n## STEP 1 — SYSTEM SCAN (MANDATORY)\n\nScan the codebase and report ONLY verified facts:\n\n1. Tech stack (frontend, backend, infra)\n2. Folder structure (high-level)\n3. Core systems detected:\n   - Auth\n   - Payments\n   - Database\n   - APIs\n   - State management\n   - Audio / media / special systems (if any)\n4. Key flows (detected from routes/components):\n   - onboarding\n   - main user journey\n   - data creation/storage\n5. External services (Supabase, Stripe, etc.)\n6. Existing docs (md files, schemas, configs)\n\nOutput format:\n\n### VERIFIED SYSTEM MAP\n- Stack:\n- Structure:\n- Core Systems:\n- Key Flows:\n- Integrations:\n- Existing Docs:\n\n---\n\n## STEP 2 — GAP \u0026 RISK ANALYSIS\n\nIdentify:\n\n- Missing structure (no clear flows, no schema, etc.)\n- Risk areas (inconsistency, unclear logic, duplication)\n- Areas that require strict rules\n\nOutput:\n\n### RISKS / GAPS\n- ❌ Missing:\n- ⚠️ Risk:\n- 🔧 Needs structure:\n\n---\n\n## STEP 3 — GENERATE CURSOR RULES\n\nCreate a minimal but powerful set of rules:\n\n- Max 5–7 rules files\n- Each rule must be SHORT and actionable\n- Reference real files instead of duplicating\n\nInclude:\n\n1. Project Map Rule\n2. Coding / Architecture Standards\n3. Workflow Rule (scan → plan → implement → verify → doc sync)\n4. Doc Sync Rule (SYSTEM_SPECS / AUDIT / DB_SCHEMA)\n5. Safety Rule (no hallucination)\n6. (Optional) Domain-specific rule (if needed)\n\nOutput:\n\n### RULES STRUCTURE\nFor each:\n- filename\n- purpose\n- content (concise)\n\n---\n\n## STEP 4 — GENERATE SKILLS (HIGH VALUE ONLY)\n\nCreate reusable skills for THIS project.\n\nConstraints:\n- Max 6–8 skills\n- Only high-impact workflows\n- Each skill = procedural, not conceptual\n\nEach skill must include:\n\n- name\n- when to use\n- steps (scan → verify → output)\n- output format\n- anti-hallucination rule\n\nExamples:\n- auth audit\n- db schema mapping\n- api route scan\n- payment flow audit\n- frontend flow trace\n- cursor prompt generator\n\nOutput:\n\n### SKILLS\n\n---\n\n## STEP 5 — DEFINE HOOKS (ENFORCEMENT)\n\nDesign minimal hooks that enforce coherence:\n\nFocus on:\n- after edit validation\n- schema / API change detection\n- doc sync enforcement\n\nOutput:\n\n### HOOKS\n- name\n- trigger (before/after edit)\n- logic (simple, practical)\n\n---\n\n## STEP 6 — DEFINE SUBAGENTS\n\nSplit responsibilities:\n\n- Architect (scan + structure)\n- Implementer (code changes)\n- Auditor (verification)\n- Doc Sync (update docs)\n\nOutput:\n\n### SUBAGENTS\n- name\n- responsibility\n- when invoked\n\n---\n\n## STEP 7 — AGENTS.md (OPTIONAL)\n\nIf useful, generate a short AGENTS.md that:\n\n- explains how to operate in this repo\n- references rules and skills\n- defines workflow in \u003c15 lines\n\n---\n\n## STEP 8 — CRITICAL QUESTIONS\n\nAsk ONLY high-leverage questions needed to improve the system.\n\nMax 5–8 questions.\n\nFocus on:\n- unclear architecture decisions\n- missing integrations\n- product logic ambiguity\n- scaling constraints\n\nOutput:\n\n### QUESTIONS\n\n---\n\n## STEP 9 — FINAL OUTPUT FORMAT\n\nKeep everything structured, concise, and readable.\n\nDO NOT:\n- write long explanations\n- repeat information\n- speculate without evidence\n\nPRIORITY:\nClarity \u003e completeness \u003e verbosity\n\n---\n\nProceed.\"",
+      "questionId": "missing_prompt"
+    },
+    {
+      "freeformText": "Say that Indias changed it as of date of today, in the page, eacy",
+      "questionId": "author_approach"
+    }
+  ]
+}
+```
+User decision: **accepted**
+
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="ask_question"><details>
+<summary>Tool use: **ask_question**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<think><details><summary>Thought Process</summary>
+Now I have full context:
+
+1. **The other prompt**: A "Cursor Coherence System" prompt - a comprehensive system prompt that analyzes a codebase and generates a complete Cursor coherence system (rules, skills, hooks, subagents, AGENTS.md). This is a powerful meta-prompt.
+
+2. **Author attribution**: Simple frontmatter showing "India changed it as of [date today]" - easy and visible on the page. So: frontmatter fields like `author` and `last_edited` visible in the rendered page.
+
+Now I need to plan:
+
+### Tasks to plan:
+1. **Add the new prompt** as a playbook in `ops/02_playbooks/development/` (it's about cursor coherence system design - fits development category)
+
+
+2. **Improve sidebar readability** - the Ops sidebar currently shows raw folder names like `00_governance` and `02_playbooks`. I should add `_category_.json` files to each folder to generate cleaner labels.
+3. **Add author attribution** - update the playbook template with `author` and `last_edited` frontmatter fields, and make sure AGENTS.md prompts for these when creating new playbooks.
+4. **Mark manually-added prompts** - introduce a frontmatter field like `origin: manual` or `source: manual` to distinguish user-created prompts, potentially with a visual CSS badge.
+
+For the new Cursor coherence system prompt, it fits naturally in `ops/02_playbooks/development/` as `cursor-coherence-system.md`. The sidebar improvements would use `_category_.json` files to map those numbered folders to readable names like "Governance", "Core Rules", and "Playbooks".
+
+I should also check if these JSON files already exist—looks like they don't based on the earlier search. Beyond that, I need to add author attribution fields to the playbook template and update AGENTS.md with `author` and `last_edited` metadata, following the cursor rule.
+
+For displaying this on the page, Docusaurus v3 actually has native support for `last_update` frontmatter that automatically renders "Last updated on [date] by [author]" at the bottom, so I don't need custom components or workarounds. For manually-added prompts, I'll add an `origin` frontmatter field and use a Docusaurus admonition at the top of the page to visually mark it—since v3 supports admonitions natively in markdown files, this should work without needing MDX.
+
+Now I'm mapping out the concrete changes: I need to create the new coherence system playbook and category files, then update the deployment-pipeline-prompts page with author/date metadata and the admonition callout, plus refresh the playbook template with the same frontmatter structure.
+
+I'm also updating the agent rules to require attribution checks, enabling author and timestamp display in the Docusaurus config, and adding the new playbook to both the ops and docs index files.
+
+Finally, I'm organizing the sidebar structure by adding category configuration files across all the ops subdirectories to improve navigation labels. I need to check the current sidebar configuration in docusaurus.config.ts and see how the autogenerated structure handles folder names with numeric prefixes. Since the sidebar is fully autogenerated, Docusaurus will convert folder names like `00_governance` into "00 Governance" by default, but I can override this with `_category_.json` files to remove the numeric prefixes and set cleaner labels like "Governance" while maintaining the file ordering through the position field.</details></think>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+Good — I have everything I need. Let me look at one more thing before writing the plan.
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks/development/index.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<think><details><summary>Thought Process</summary>
+Interesting - the development index already has references to `full-system-coherence-setup` and `deployment-pipeline-prompts` in a structured format. It seems like a previous agent session (that I'm not aware of) already added some content to this hub. Let me check if `full-system-coherence-setup.md` actually exists in the ops folder.</details></think>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **1** result in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development** (1 file)
+
+| File |
+|------|
+| `full-system-coherence-setup.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **7** results in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs/playbooks** (7 files)
+
+| File |
+|------|
+| `development/index.md` |
+| `project-management/index.md` |
+| `sales/index.md` |
+| `operations/index.md` |
+| `branding/index.md` |
+| `marketing/index.md` |
+| `index.md` |
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/full-system-coherence-setup.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<think><details><summary>Thought Process</summary>
+The coherence playbook already exists! So a previous agent session (not in this conversation) already created it. The user is asking us to add it now, but it's already there.
+
+Let me check the full frontmatter and see if it has author/date info.
+
+So the main things to do are:
+1. The coherence prompt is already there - good, I just need to confirm its author/date attribution is missing
+2. Add `author`, `last_edited`, `origin` frontmatter to `deployment-pipeline-prompts.md` (the one manually added)
+
+
+3. Do the same for `full-system-coherence-setup.md` and the playbook template
+4. Update AGENTS.md to track who made changes
+5. Enable the author and last update time display in docusaurus.config.ts
+6. Add category files to organize the sidebar better
+7. Make sure the author and date are visible on the actual pages
+
+Let me pull up the full frontmatter for `full-system-coherence-setup.md` to see what's already there.</details></think>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+The coherence playbook already exists from an earlier session. Let me read the key remaining files to finalize the plan.
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/indiasfernandes/Innerflect_Operational_Intelligence_System/ops/02_playbooks/development/full-system-coherence-setup.md</summary>
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2"><details>
+<summary>Tool use: **read_file_v2**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search">
+<details>
+<summary>Tool use: **glob_file_search** • Searched codebase "" • **0** results in **1** directory</summary>
+
+Directory: **/Users/indiasfernandes/Innerflect_Operational_Intelligence_System/docs** (0 files)
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="search" data-tool-name="glob_file_search"><details>
+<summary>Tool use: **glob_file_search**</summary>
+
+</details></tool-use>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<think><details><summary>Thought Process</summary>
+Now I have the complete picture:
+
+1. The coherence playbook already exists and is already wired into the docs/playbooks/development/index.md hub. It already uses emojis in the prompt text (the user said no emojis but the prompt was saved verbatim from the user's input, which includes emojis, so that's fine).
+
+2. Neither playbook has `author`, `last_edited`, or `origin` frontmatter yet.
+
+3. No `_category_.json` files exist anywhere.
+
+4. The Docusaurus sidebar doesn't show clean section labels (shows `00_governance`, `01_core-rules`, etc. 
+
+I need to form a clear plan. My goal is to add author and date attribution, improve sidebar readability, add a visual indicator for manually authored content, and update governance rules. For author attribution, I can leverage Docusaurus v3's `last_update` frontmatter to display "Last updated on [date] by [author]" at the bottom of each page.
+
+Now I'm identifying the specific files that need changes: the Docusaurus config to enable the last update display settings, the two playbook files that need author and origin metadata, and the playbook template to establish the pattern for future documents.
+
+For the visual distinction, I'll add a Docusaurus admonition block at the top of manually-authored pages that clearly states who wrote it and when, along with the `origin: manual` frontmatter to separate these from AI-generated content.
+
+I'm also planning to improve the sidebar organization using `_category_.json` files to replace the current numeric naming scheme with something more readable. I need to create `_category_.json` files for the remaining folders in the ops plugin—that's 15 total files to set up the proper labels and ordering. For the docs plugin, the folders are already well-named and use sidebar positioning in frontmatter, so I'll skip adding category files there for now to keep things focused.
+
+I also need to update a few files: the docusaurus config for last update settings, and three playbook/template files to add or fix their frontmatter and admonitions.
+
+For the last update timestamps, Docusaurus v3 pulls from git history automatically when those settings are enabled, but I can override it per-page with a frontmatter field like `last_update: { date: '2026-03-28', author: 'Indias' }` that displays in the page footer. That matches what the user wants.
+
+Let me draft the implementation plan now.</details></think>
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+Now I have the full picture. Here is the plan.
+
+_**Agent (claude-4.6-sonnet-medium-thinking)**_
+
+<tool-use data-tool-type="unknown" data-tool-name="create_plan">
+<details>
+<summary>Tool use: **create_plan**</summary>
+
+
+Parameters:
+
+```json
+{
+  "name": "Sidebar, Attribution, Manual Badge",
+  "overview": "Add visible author/date attribution on pages, a \"manually authored\" callout for human-written prompts, clean sidebar labels across the Ops tree, and an AGENTS.md rule that always asks who made the change.",
+  "plan": "# Sidebar, Attribution, and Manual-Prompt Identification\n\n## What the two \"manual\" playbooks are\n\nBoth already exist. Neither has attribution yet:\n- [&#96;ops/02_playbooks/development/deployment-pipeline-prompts.md&#96;](ops/02_playbooks/development/deployment-pipeline-prompts.md)\n- [&#96;ops/02_playbooks/development/full-system-coherence-setup.md&#96;](ops/02_playbooks/development/full-system-coherence-setup.md)\n\n---\n\n## 1. Author/date attribution — Docusaurus &#96;last_update&#96; frontmatter\n\nDocusaurus v3 has a native &#96;last_update&#96; frontmatter key that renders \"Last updated on [date] by [author]\" at the bottom of every page. No custom component needed.\n\n**Enable in** [&#96;website/docusaurus.config.ts&#96;](website/docusaurus.config.ts) — add to both doc plugins:\n&#96;&#96;&#96;ts\nshowLastUpdateTime: true,\nshowLastUpdateAuthor: true,\n&#96;&#96;&#96;\n\n**Add to each page** frontmatter:\n&#96;&#96;&#96;yaml\nlast_update:\n  date: 2026-03-28\n  author: Indias\n&#96;&#96;&#96;\n\n**Add to** [&#96;ops/03_templates/playbook-template.md&#96;](ops/03_templates/playbook-template.md) so every new playbook ships with the field pre-filled (as a placeholder):\n&#96;&#96;&#96;yaml\nlast_update:\n  date: \"\u003cYYYY-MM-DD\u003e\"\n  author: \"\u003cname\u003e\"\n&#96;&#96;&#96;\n\n---\n\n## 2. Visual \"manually authored\" callout\n\nAdd a Docusaurus admonition block just below the H1 on each manually-authored page. Docusaurus renders this as a visible coloured callout box:\n\n&#96;&#96;&#96;markdown\n:::note Manually authored prompt\nWritten by Indias — 2026-03-28. Prompt body is stored verbatim; do not edit wording inside fenced blocks without the author's sign-off.\n:::\n&#96;&#96;&#96;\n\nAlso add &#96;origin: manual&#96; to frontmatter so it is machine-readable and searchable.\n\nFiles to add the callout + frontmatter field to:\n- &#96;deployment-pipeline-prompts.md&#96;\n- &#96;full-system-coherence-setup.md&#96;\n\n---\n\n## 3. AGENTS.md rule — always ask author before completing\n\nAdd a new **\"Attribution\"** section to [&#96;AGENTS.md&#96;](AGENTS.md):\n\n&#96;&#96;&#96;markdown\n## Attribution\n\n- Before completing any task that **adds or materially edits** a playbook, template, checklist, or governance file, ask: \"Who should be recorded as the author/editor for this change?\" Then add or update &#96;last_update: { date, author }&#96; in frontmatter.\n- For verbatim prompt blocks, also record origin: &#96;origin: manual&#96; (human-written) or &#96;origin: ai-assisted&#96;.\n&#96;&#96;&#96;\n\n---\n\n## 4. Sidebar improvement — &#96;_category_.json&#96; per folder\n\nBoth sidebars are &#96;autogenerated&#96;, so Docusaurus derives labels from folder names. &#96;00_governance&#96; renders as \"00 Governance\", which is ugly. Fixing this requires one &#96;_category_.json&#96; per folder.\n\n**Folders to add &#96;_category_.json&#96; to (Ops plugin):**\n\n| Folder | label |\n|--------|-------|\n| &#96;ops/00_governance/&#96; | Governance |\n| &#96;ops/01_core-rules/&#96; | Core Rules |\n| &#96;ops/02_playbooks/&#96; | Playbooks |\n| &#96;ops/02_playbooks/development/&#96; | Development |\n| &#96;ops/02_playbooks/marketing/&#96; | Marketing |\n| &#96;ops/02_playbooks/branding/&#96; | Branding |\n| &#96;ops/02_playbooks/project-management/&#96; | Project Management |\n| &#96;ops/02_playbooks/sales/&#96; | Sales |\n| &#96;ops/02_playbooks/operations/&#96; | Operations |\n| &#96;ops/03_templates/&#96; | Templates |\n| &#96;ops/04_checklists/&#96; | Checklists |\n| &#96;ops/05_examples/&#96; | Examples |\n| &#96;ops/06_subagents/&#96; | Subagents |\n| &#96;ops/07_skills/&#96; | Skills |\n| &#96;ops/08_mcp-guides/&#96; | MCP Guides |\n\nEach file is 4 lines:\n&#96;&#96;&#96;json\n{\n  \"label\": \"Governance\",\n  \"position\": 1,\n  \"collapsible\": true,\n  \"collapsed\": true\n}\n&#96;&#96;&#96;\n\nTop-level sections (Governance, Core Rules, Playbooks, Templates, Checklists, Examples, Subagents, Skills, MCP Guides) get &#96;\"collapsed\": true&#96; so the sidebar is scannable on first load. Playbook subcategories default to the same.\n\n---\n\n## Flow of changes\n\n&#96;&#96;&#96;mermaid\nflowchart TD\n  config[\"website/docusaurus.config.ts\\nshowLastUpdateTime/Author: true\"]\n  template[\"ops/03_templates/playbook-template.md\\nadd last_update + origin fields\"]\n  agents[\"AGENTS.md\\nadd Attribution rule\"]\n  deploy[\"deployment-pipeline-prompts.md\\nadd last_update frontmatter + admonition\"]\n  coherence[\"full-system-coherence-setup.md\\nadd last_update frontmatter + admonition\"]\n  cats[\"15x _category_.json\\nclean sidebar labels\"]\n  build[\"npm run build — verify\"]\n\n  config --\u003e build\n  template --\u003e build\n  agents --\u003e build\n  deploy --\u003e build\n  coherence --\u003e build\n  cats --\u003e build\n&#96;&#96;&#96;\n\n---\n\n## Files changed / created\n\n- **Edit** [&#96;website/docusaurus.config.ts&#96;](website/docusaurus.config.ts) — 2 lines per plugin\n- **Edit** [&#96;ops/03_templates/playbook-template.md&#96;](ops/03_templates/playbook-template.md) — add frontmatter fields\n- **Edit** [&#96;AGENTS.md&#96;](AGENTS.md) — new Attribution section\n- **Edit** [&#96;ops/02_playbooks/development/deployment-pipeline-prompts.md&#96;](ops/02_playbooks/development/deployment-pipeline-prompts.md) — frontmatter + admonition\n- **Edit** [&#96;ops/02_playbooks/development/full-system-coherence-setup.md&#96;](ops/02_playbooks/development/full-system-coherence-setup.md) — frontmatter + admonition\n- **Create** 15 &#96;_category_.json&#96; files across &#96;ops/&#96;\n- **Run** &#96;npm run build&#96; in &#96;website/&#96; to verify\n",
+  "todos": [
+    {
+      "content": "Enable showLastUpdateTime and showLastUpdateAuthor in both doc plugins in website/docusaurus.config.ts",
+      "id": "docusaurus-config",
+      "status": "pending"
+    },
+    {
+      "content": "Create 15 _category_.json files across ops/ subfolders for clean sidebar labels",
+      "id": "category-json",
+      "status": "pending"
+    },
+    {
+      "content": "Add Attribution section to AGENTS.md: ask who made the change, write last_update + origin frontmatter",
+      "id": "agents-rule",
+      "status": "pending"
+    },
+    {
+      "content": "Add last_update and origin placeholder fields to ops/03_templates/playbook-template.md",
+      "id": "playbook-template",
+      "status": "pending"
+    },
+    {
+      "content": "Add last_update frontmatter (author: Indias, date: 2026-03-28), origin: manual, and manually-authored admonition to deployment-pipeline-prompts.md",
+      "id": "deployment-prompts-attribution",
+      "status": "pending"
+    },
+    {
+      "content": "Add last_update frontmatter (author: Indias, date: 2026-03-28), origin: manual, and manually-authored admonition to full-system-coherence-setup.md",
+      "id": "coherence-attribution",
+      "status": "pending"
+    },
+    {
+      "content": "Run npm run build in website/ and confirm no new errors from these changes",
+      "id": "build-verify",
+      "status": "pending"
+    }
+  ]
+}
+```
+Additional data:
+
+```json
+{
+  "hasOpenedEditor": true,
+  "planUri": "file:///Users/indiasfernandes/.cursor/plans/sidebar%2C_attribution%2C_manual_badge_2d2d443a.plan.md",
+  "reviewData": {
+    "isShowingInput": false,
+    "selectedOption": "none",
+    "status": "Requested"
+  }
+}
+```
+Result:
+
+```json
+{
+  "rejected": {}
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+<tool-use data-tool-type="unknown" data-tool-name="create_plan"><details>
+<summary>Tool use: **create_plan**</summary>
 
 </details></tool-use>
